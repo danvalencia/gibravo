@@ -10,24 +10,27 @@ class Section
 	//Un array de albumes
 	private $_albums;
 	
-	/**
-	 * Getter
-	 *
-	 * @return an array of albums
-	 **/
+	private $_name;
+	
 	public function getAlbums()
 	{
-		return $this->$_albums;
-	};
+		return $this->_albums;
+	}
 	
-	/**
-	 * Setter
-	 *
-	 * @return void
-	 **/
 	public function setAlbums($albums)
 	{
-		$this->$_albums = $albums;
+		$this->_albums = $albums;
+	}
+	
+	public function getName()
+	{
+		return $this->_name;
+		#return "thissssss";
+	}
+	
+	public function setName($name)
+	{
+		$this->_name = $name;
 	}
 }
 ?>

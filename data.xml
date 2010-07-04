@@ -1,10 +1,19 @@
 <?xml version="1.0"?>
-<secciones>
-	<seccion name="Personal">
-		<album name="cities">
-			<image>
-				
+<sections>
+	<section name="EDITORIAL">
+		<album name="magis">
+			<image path="/images/editorial/1.jpg">
+				<name>1.jpg</name>
+				<thumbnail path="/images/editorial/thumbs_editorial/1.jpg" />
+				<title>Some title for 1</title>
 			</image>
 		</album>
-	</seccion>
-</secciones>
+		<album name="curiosidad">
+			<image path="/images/editorial/cafe1.jpg">
+				<name>cafe1.jpg</name>
+				<thumbnail path="/images/editorial/thumbs_editorial/cafe1.jpg" />
+				<title>Some title for cafe 1</title>
+			</image>
+		</album>
+	</section>
+</sections>

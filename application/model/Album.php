@@ -14,25 +14,26 @@ class Album
 	 **/
 	private $_images;
 	
-	/**
-	 * Getter
-	 *
-	 * @return list of images for this album
-	 */
+	private $_name;
+	
 	public function getImages()
 	{
-		return $this->$_images;
+		return $this->_images;
 	}
-	
-	/**
-	 * Setter
-	 *
-	 * @param string $images 
-	 * @return void
-	 */
+
 	public function setImages($images)
 	{
-		$this->$_images = $images;
+		$this->_images = $images;
+	}
+	
+	public function getName()
+	{
+		return $this->_name;
+	}
+	
+	public function setName($name)
+	{
+		$this->_name = $name;
 	}
 } 
 ?>
