@@ -11,6 +11,8 @@ $sections = $service->fetchSections();
 $section=$sections[$seccion_name];
 $albums=$section->getAlbums();
 $album=$albums[$album_name];
+$images_in_album = $album->getImages();
+$display_image = $images_in_album[$image_name];
 $image_count=0;
 $MAX_IMAGES=21;
 #var_dump($album);
@@ -76,7 +78,7 @@ $MAX_IMAGES=21;
 					<?php endfor?>
 				</div>
 				<div id="image_panel">
-					<!-- <img src="/images/personal/ciudad1.jpg"></img> -->
+					<img src="<?php echo($display_image->getPath()) ?>"></img>
 				</div>
 			</div>
 			<div id="footer">
