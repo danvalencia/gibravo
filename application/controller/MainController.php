@@ -30,8 +30,6 @@ $MAX_IMAGES=21;
 		<meta name="keywords" content="Keywords" />
 		<meta name="author" content="Enlighten Designs" />
 		<link rel="stylesheet" href="/styles/styles.css" type="text/css"></link>
-		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
-		<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>		
 	</head>
 	<body>
 		<div id="page-container">
@@ -39,20 +37,20 @@ $MAX_IMAGES=21;
 				<img id="header_image" src="/images/titulo.png"></img>
 			</div>
 			<div id="leftnav">
-				<ul class="sections">
+				<ul id="menu" class="sections">
 					<?php foreach ($sections as $a_section): ?>
 						<li class="item_sections">
 							<?php if (strcasecmp($a_section->getName(), $seccion_name) == 0): ?>
-								<span class="section_selected"><?= strtoupper($a_section->getName()) ?></span>
+								<a class="section_unselected" href="#"><?= strtoupper($a_section->getName()) ?></a>
 							<?php else: ?>
-								<span class="section_unselected"><?= strtoupper($a_section->getName()) ?></span>
+							    <a style="section_unselected" href="#"><?= strtoupper($a_section->getName()) ?></a>
 							<?php endif ?>								
 							<ul class="albums">
 								<?php foreach ($a_section->getAlbums() as $an_album): ?>
 									<?php if (strcasecmp($a_section->getName(), $seccion_name) == 0): ?>
 										<li class="item_albums">
 									<?php else: ?>
-										<li class="item_albums hidden">
+										<li class="item_albums">
 									<?php endif ?>		
 									
 									<?php if (strcasecmp($an_album->getName(), $album_name) == 0): ?>
@@ -88,5 +86,11 @@ $MAX_IMAGES=21;
 					ALL IMAGES © GIBRAN JULIAN
 			</div>
 		</div>
+		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/javascript/menu.js"></script>
+		<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" >
+		$(document).ready(function() {Menu.initMenu();});   
+		</script>
 	</body>
 </html>
