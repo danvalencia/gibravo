@@ -43,9 +43,9 @@ $MAX_IMAGES=21;
 					<?php foreach ($sections as $a_section): ?>
 						<li class="item_sections">
 							<?php if (strcasecmp($a_section->getName(), $seccion_name) == 0): ?>
-								<span class="section_selected"><?php echo strtoupper($a_section->getName()) ?></span>
+								<span class="section_selected"><?= strtoupper($a_section->getName()) ?></span>
 							<?php else: ?>
-								<span class="section_unselected"><?php echo strtoupper($a_section->getName()) ?></span>
+								<span class="section_unselected"><?= strtoupper($a_section->getName()) ?></span>
 							<?php endif ?>								
 							<ul class="albums">
 								<?php foreach ($a_section->getAlbums() as $an_album): ?>
@@ -56,9 +56,9 @@ $MAX_IMAGES=21;
 									<?php endif ?>		
 									
 									<?php if (strcasecmp($an_album->getName(), $album_name) == 0): ?>
-										<span class="album_selected"><?php echo $an_album->getName() ?></span>
+										<span class="album_selected"><?= $an_album->getName() ?></span>
 									<?php else: ?>
-										<span class="album_unselected"><?php echo $an_album->getName() ?></span>
+										<span class="album_unselected"><?= $an_album->getName() ?></span>
 									<?php endif ?>						
 									</li>
 								<?php endforeach ?>
@@ -72,7 +72,7 @@ $MAX_IMAGES=21;
 					<?php foreach ($album->getImages() as $image): ?>
 						<?php $image_count++;?>
 						<div class="thumb" onclick="Image.selectImage('<?= $image->getPath() ?>');">
-							<img src="<?php echo $image->getThumbnailPath()?>"></img>
+							<img src="<?= $image->getThumbnailPath()?>"></img>
 						</div>
 					<?php endforeach ?>
 					<?php for ($i=$image_count; $i < $MAX_IMAGES; $i++): ?>
@@ -81,7 +81,7 @@ $MAX_IMAGES=21;
 				</div>
 				<div id="image_panel" >
 					<!-- <img id="_image" style="opacity:0.1;filter:alpha(opacity=40)" src="/images/pajaro_web2.jpg"></img> -->
-					<img id="_image" src="<?php echo($display_image->getPath()) ?>"></img>
+					<img id="_image" src="<?= $display_image->getPath() ?>"></img>
 				</div>
 			</div>
 			<div id="footer">
