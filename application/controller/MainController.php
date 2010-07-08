@@ -30,6 +30,8 @@ $MAX_IMAGES=21;
 		<meta name="keywords" content="Keywords" />
 		<meta name="author" content="Enlighten Designs" />
 		<link rel="stylesheet" href="/styles/styles.css" type="text/css"></link>
+		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
+		<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>		
 	</head>
 	<body>
 		<div id="page-container">
@@ -69,7 +71,7 @@ $MAX_IMAGES=21;
 				<div id="thumb_panel">
 					<?php foreach ($album->getImages() as $image): ?>
 						<?php $image_count++;?>
-						<div class="thumb">
+						<div class="thumb" onclick="Image.selectImage('<?= $image->getPath() ?>');">
 							<img src="<?php echo $image->getThumbnailPath()?>"></img>
 						</div>
 					<?php endforeach ?>
@@ -77,8 +79,9 @@ $MAX_IMAGES=21;
 						<div class="thumb"></div>
 					<?php endfor?>
 				</div>
-				<div id="image_panel">
-					<img src="<?php echo($display_image->getPath()) ?>"></img>
+				<div id="image_panel" >
+					<!-- <img id="_image" style="opacity:0.1;filter:alpha(opacity=40)" src="/images/pajaro_web2.jpg"></img> -->
+					<img id="_image" src="<?php echo($display_image->getPath()) ?>"></img>
 				</div>
 			</div>
 			<div id="footer">
