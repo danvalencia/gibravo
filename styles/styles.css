@@ -133,7 +133,13 @@ div.thumb:hover
 	border: 2px solid #FFF200;
 }
 
-a.:link 
+.thumb_selected
+{
+	margin: 2px 2px 2px 2px;
+	border: 2px solid #FFF200;
+}
+
+a:link 
 {
 	border: 1px transparent;
 }

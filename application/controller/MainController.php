@@ -91,7 +91,7 @@ $MAX_IMAGES=21;
 				<div id="thumb_panel">
 					<?php foreach ($album->getImages() as $image): ?>
 						<?php $image_count++;?>
-						<div class="thumb" onclick="Image.selectImage('<?= $image->getPath() ?>');">
+						<div class="thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?>" onclick="Image.selectImage('<?= $image->getPath() ?>', this);">
 							<img src="<?= $image->getThumbnailPath()?>"></img>
 						</div>
 					<?php endforeach ?>
@@ -105,7 +105,12 @@ $MAX_IMAGES=21;
 				</div>
 			</div>
 			<div id="footer">
-					ALL IMAGES © GIBRAN JULIAN
+				<span id="flecha_izquierda" class="flecha">
+					<img src="/images/flecha_izquierda.png"></img>
+				</span>
+				<span id="flecha_derecha" class="flecha">
+					<img src="/images/flecha_derecha.png"></img>
+				</span>
 			</div>
 		</div>
 		<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
