@@ -48,6 +48,28 @@ ul.sections
 	line-height:20px;
 }
 
+li>a{
+	text-decoration : none;
+	outline:none;
+}
+
+li>a.album:link
+{
+	color:#585857
+}
+li>a.album:visited
+{
+	color:#585857
+}
+li>a.album:hover
+{
+	color:#F5F5F5;
+}
+li>a.album:active
+{
+	color:#FFF200;
+}
+
 ul.albums
 {
 	margin-top: 0px;

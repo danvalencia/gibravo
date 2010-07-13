@@ -8,11 +8,37 @@ $image_name = $_GET['imagen'];
 $service = new ImageService();
 $sections = $service->fetchSections();
 
-$section=$sections[$seccion_name];
+if(isset($seccion_name))
+{
+	$section=$sections[$seccion_name];	
+}
+else
+{
+	$sections=array_values($sections);
+	$section=$sections[0];
+}
 $albums=$section->getAlbums();
-$album=$albums[$album_name];
+
+if(isset($album_name))
+{
+	$album=$albums[$album_name];
+}
+else
+{
+	$albums=array_values($albums);
+	$album=$albums[0];
+}
 $images_in_album = $album->getImages();
-$display_image = $images_in_album[$image_name];
+
+if(isset($image_name))
+{
+	$display_image=$images_in_album[$image_name];
+}
+else
+{
+	$images_in_album=array_values($images_in_album);
+	$display_image=$images_in_album[0];
+}
 $image_count=0;
 $MAX_IMAGES=21;
 #var_dump($album);
@@ -41,9 +67,9 @@ $MAX_IMAGES=21;
 					<?php foreach ($sections as $a_section): ?>
 						<li class="item_sections">
 							<?php if (strcasecmp($a_section->getName(), $seccion_name) == 0): ?>
-								<a class="section_unselected" href="#"><?= strtoupper($a_section->getName()) ?></a>
+								<a class="section_selected" id="<?=$a_section->getName()?>" href="#"><?= strtoupper($a_section->getName()) ?></a>
 							<?php else: ?>
-							    <a style="section_unselected" href="#"><?= strtoupper($a_section->getName()) ?></a>
+							    <a style="section_unselected" href="#" id="<?=$a_section->getName()?>"><?= strtoupper($a_section->getName()) ?></a>
 							<?php endif ?>								
 							<ul class="albums">
 								<?php foreach ($a_section->getAlbums() as $an_album): ?>
@@ -54,9 +80,9 @@ $MAX_IMAGES=21;
 									<?php endif ?>		
 									
 									<?php if (strcasecmp($an_album->getName(), $album_name) == 0): ?>
-										<span class="album_selected"><?= $an_album->getName() ?></span>
+										<a href="<?= "/main/".$a_section->getName()."/".$an_album->getName()?>" class="album album_selected"><?= $an_album->getName() ?></a>
 									<?php else: ?>
-										<span class="album_unselected"><?= $an_album->getName() ?></span>
+										<a href="<?= "/main/".$a_section->getName()."/".$an_album->getName()?>" class="album album_unselected"><?= $an_album->getName() ?></a>
 									<?php endif ?>						
 									</li>
 								<?php endforeach ?>
@@ -89,8 +115,9 @@ $MAX_IMAGES=21;
 		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/menu.js"></script>
 		<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
 		<script type="text/javascript" >
-		$(document).ready(function() {Menu.initMenu();});   
+		$(document).ready(function() {Menu.initMenu("<?= $section_name?>");});   
 		</script>
 	</body>
 </html>

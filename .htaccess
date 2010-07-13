@@ -80,7 +80,8 @@ DirectoryIndex /application/controller/MainController.php
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_URI} !=/favicon.ico
-  RewriteRule ^([^/]+)/([^/]+)/([^/]+)$ application/controller/MainController.php?seccion=$1&album=$2&imagen=$3 [L,QSA]
+  RewriteRule ^main/([^/]+)/([^/]+)/([^/]+)$ application/controller/MainController.php?seccion=$1&album=$2&imagen=$3 [L,QSA]
+  RewriteRule ^main/([^/]+)/([^/]+)$ application/controller/MainController.php?seccion=$1&album=$2 [QSA]
 	#RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 </IfModule>
 
