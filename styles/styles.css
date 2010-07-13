@@ -53,22 +53,6 @@ li>a{
 	outline:none;
 }
 
-li>a.album:link
-{
-	color:#585857
-}
-li>a.album:visited
-{
-	color:#585857
-}
-li>a.album:hover
-{
-	color:#F5F5F5;
-}
-li>a.album:active
-{
-	color:#FFF200;
-}
 
 ul.albums
 {
@@ -149,7 +133,7 @@ div.thumb:hover
 	border: 2px solid #FFF200;
 }
 
-a:link 
+a.:link 
 {
 	border: 1px transparent;
 }

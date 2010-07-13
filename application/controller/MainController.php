@@ -63,9 +63,9 @@ $MAX_IMAGES=21;
 					<?php foreach ($sections as $a_section): ?>
 						<li class="item_sections">
 							<?php if (strcasecmp($a_section->getName(), $seccion_name) == 0): ?>
-								<a class="section_selected" id="<?=$a_section->getName()?>" href="#"><?= strtoupper($a_section->getName()) ?></a>
+								<a class="section section_selected" id="<?=$a_section->getName()?>" href="#"><?= strtoupper($a_section->getName()) ?></a>
 							<?php else: ?>
-							    <a style="section_unselected" href="#" id="<?=$a_section->getName()?>"><?= strtoupper($a_section->getName()) ?></a>
+							    <a class="section section_unselected" href="#" id="<?=$a_section->getName()?>"><?= strtoupper($a_section->getName()) ?></a>
 							<?php endif ?>								
 							<ul class="albums">
 								<?php foreach ($a_section->getAlbums() as $an_album): ?>
