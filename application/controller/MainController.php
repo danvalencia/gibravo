@@ -2,9 +2,7 @@
 $seccion_name = $_GET['seccion'];
 $album_name = $_GET['album'];
 $image_name = $_GET['imagen'];
-#echo("<p>Works: seccion: $seccion_name, album: $album_name,  imagen: $image_name </p>");
 
-// $xml=simplexml_load_file("../../data.xml");
 $service = new ImageService();
 $sections = $service->fetchSections();
 
@@ -41,9 +39,7 @@ else
 }
 $image_count=0;
 $MAX_IMAGES=21;
-#var_dump($album);
 
-// $xml_str=var_dump($xml);
 ?>
 <html>
 	<head>
@@ -112,12 +108,14 @@ $MAX_IMAGES=21;
 					ALL IMAGES © GIBRAN JULIAN
 			</div>
 		</div>
-		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
-		<script type="text/javascript" charset="utf-8" src="/javascript/menu.js"></script>
 		<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/javascript/menu.js"></script>
 		<script type="text/javascript" >
-		$(document).ready(function() {Menu.initMenu("<?= $section_name?>");});   
+		$(document).ready(function() {
+			Menu.initMenu("<?= $seccion_name ?>");
+		});   
 		</script>
 	</body>
 </html>
