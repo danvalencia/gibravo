@@ -14,7 +14,9 @@ html,body
 
 #page-container
 {
-	width: 830px;
+/*	padding-top:10px;
+*/	width: 830px;
+	margin: auto;
 }
 
 /*
@@ -22,12 +24,12 @@ Header Styles
 */
 #header
 {
-	height : 60px;
+	height : 90px;
 }
 
 #header_image{
-	left:105px;
-	top:5px;
+	left:114px;
+	top:21px;
 	position: relative;
 }
 
@@ -43,9 +45,10 @@ Leftnav Styles
 
 ul.sections
 {
-	padding: 10px 0px 0px 10px;
+	padding: 0px 0px 0px 10px;
 	list-style-type: none;
 	line-height:20px;
+	margin : 0px;
 }
 
 li>a{

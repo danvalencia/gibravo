@@ -2,190 +2,175 @@
 <sections>
 	<section name="personal">
 		<album name="cities">
-			<image path="/images/personal/ciudad1.jpg">
+			<image path="/images/personal/cities/ciudad1.jpg">
 				<name>ciudad1.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/ciudad1.jpg" />
+				<thumbnail path="/images/personal/thumbs/ciudad1.jpg" />
 				<title>Some title for 1</title>
 			</image>
-			<image path="/images/personal/ciudad2.jpg">
+			<image path="/images/personal/cities/ciudad2.jpg">
 				<name>ciudad2.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/ciudad2.jpg" />
+				<thumbnail path="/images/personal/thumbs/ciudad2.jpg" />
 				<title>Some title for 1</title>
 			</image>
-			<image path="/images/personal/ciudad3.jpg">
+			<image path="/images/personal/cities/ciudad3.jpg">
 				<name>ciudad3.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/ciudad3.jpg" />
+				<thumbnail path="/images/personal/thumbs/ciudad3.jpg" />
 				<title>Some title for 1</title>
 			</image>
-			<image path="/images/personal/ciudad4.jpg">
+			<image path="/images/personal/cities/ciudad4.jpg">
 				<name>ciudad4.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/ciudad4.jpg" />
+				<thumbnail path="/images/personal/thumbs/ciudad4.jpg" />
 				<title>Some title for 1</title>
 			</image>
-			<image path="/images/personal/ciudad5.jpg">
+			<image path="/images/personal/cities/ciudad5.jpg">
 				<name>ciudad5.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/ciudad5.jpg" />
+				<thumbnail path="/images/personal/thumbs/ciudad5.jpg" />
 				<title>Some title for 1</title>
 			</image>
 		</album>
 		<album name="animal series">
-			<image path="/images/personal/animal1.jpg">
+			<image path="/images/personal/animal_series/animal1.jpg">
 				<name>animal1.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/animal1.jpg" />
+				<thumbnail path="/images/personal/thumbs/animal1.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/animal2.jpg">
+			<image path="/images/personal/animal_series/animal2.jpg">
 				<name>animal2.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/animal2.jpg" />
+				<thumbnail path="/images/personal/thumbs/animal2.jpg" />
 				<title>Some title for cafe 2</title>
 			</image>
-			<image path="/images/personal/animal3.jpg">
+			<image path="/images/personal/animal_series/animal3.jpg">
 				<name>animal3.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/animal3.jpg" />
+				<thumbnail path="/images/personal/thumbs/animal3.jpg" />
 				<title>Some title for cafe 3</title>
 			</image>
-			<image path="/images/personal/animal4.jpg">
+			<image path="/images/personal/animal_series/animal4.jpg">
 				<name>animal4.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/animal4.jpg" />
+				<thumbnail path="/images/personal/thumbs/animal4.jpg" />
 				<title>Some title for cafe 4</title>
 			</image>
-			<image path="/images/personal/animal5.jpg">
+			<image path="/images/personal/animal_series/animal5.jpg">
 				<name>animal5.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/animal5.jpg" />
+				<thumbnail path="/images/personal/thumbs/animal5.jpg" />
 				<title>Some title for cafe 5</title>
 			</image>
 		</album>
 		<album name="patterns">
-			<image path="/images/personal/p1.jpg">
+			<image path="/images/personal/patterns/p1.jpg">
 				<name>p1.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/p1.jpg" />
+				<thumbnail path="/images/personal/thumbs/p1.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/p2.jpg">
+			<image path="/images/personal/patterns/p2.jpg">
 				<name>p2.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/p2.jpg" />
+				<thumbnail path="/images/personal/thumbs/p2.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/p3.jpg">
+			<image path="/images/personal/patterns/p3.jpg">
 				<name>p3.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/p3.jpg" />
+				<thumbnail path="/images/personal/thumbs/p3.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/p4.jpg">
+			<image path="/images/personal/patterns/p4.jpg">
 				<name>p4.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/p4.jpg" />
+				<thumbnail path="/images/personal/thumbs/p4.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/p5.jpg">
+			<image path="/images/personal/patterns/p5.jpg">
 				<name>p5.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/p5.jpg" />
+				<thumbnail path="/images/personal/thumbs/p5.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/p6.jpg">
+			<image path="/images/personal/patterns/p6.jpg">
 				<name>p6.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/p6.jpg" />
+				<thumbnail path="/images/personal/thumbs/p6.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/p7.jpg">
+			<image path="/images/personal/patterns/p7.jpg">
 				<name>p7.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/p7.jpg" />
+				<thumbnail path="/images/personal/thumbs/p7.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/p8.jpg">
+			<image path="/images/personal/patterns/p8.jpg">
 				<name>p8.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/p8.jpg" />
+				<thumbnail path="/images/personal/thumbs/p8.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/p9.jpg">
+			<image path="/images/personal/patterns/p9.jpg">
 				<name>p9.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/p9.jpg" />
+				<thumbnail path="/images/personal/thumbs/p9.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
 		</album>
 		<album name="freestyle">
-			<image path="/images/personal/1.jpg">
+			<image path="/images/personal/freestyle/1.jpg">
 				<name>1.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/1.jpg" />
+				<thumbnail path="/images/personal/thumbs/1.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
-			<image path="/images/personal/2.jpg">
+			<image path="/images/personal/freestyle/2.jpg">
 				<name>2.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/2.jpg" />
+				<thumbnail path="/images/personal/thumbs/2.jpg" />
 				<title>Some title for cafe 2</title>
 			</image>
-			<image path="/images/personal/3.jpg">
+			<image path="/images/personal/freestyle/3.jpg">
 				<name>3.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/3.jpg" />
+				<thumbnail path="/images/personal/thumbs/3.jpg" />
 				<title>Some title for cafe 3</title>
 			</image>
-			<image path="/images/personal/4.jpg">
+			<image path="/images/personal/freestyle/4.jpg">
 				<name>4.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/4.jpg" />
+				<thumbnail path="/images/personal/thumbs/4.jpg" />
 				<title>Some title for cafe 4</title>
 			</image>
-			<image path="/images/personal/5.jpg">
+			<image path="/images/personal/freestyle/5.jpg">
 				<name>5.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/5.jpg" />
+				<thumbnail path="/images/personal/thumbs/5.jpg" />
 				<title>Some title for cafe 5</title>
 			</image>
-			<image path="/images/personal/6.jpg">
+			<image path="/images/personal/freestyle/6.jpg">
 				<name>6.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/6.jpg" />
+				<thumbnail path="/images/personal/thumbs/6.jpg" />
 				<title>Some title for cafe 6</title>
 			</image>
-			<image path="/images/personal/7.jpg">
+			<image path="/images/personal/freestyle/7.jpg">
 				<name>7.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/7.jpg" />
+				<thumbnail path="/images/personal/thumbs/7.jpg" />
 				<title>Some title for cafe 7</title>
 			</image>
-			<image path="/images/personal/8.jpg">
-				<name>8.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/8.jpg" />
-				<title>Some title for cafe 8</title>
-			</image>
-			<image path="/images/personal/9.jpg">
-				<name>9.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/9.jpg" />
-				<title>Some title for cafe 9</title>
-			</image>
-			<image path="/images/personal/10.jpg">
-				<name>10.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/10.jpg" />
-				<title>Some title for cafe 10</title>
-			</image>
-			<image path="/images/personal/11.jpg">
+			<image path="/images/personal/freestyle/11.jpg">
 				<name>11.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/11.jpg" />
+				<thumbnail path="/images/personal/thumbs/11.jpg" />
 				<title>Some title for cafe 11</title>
 			</image>
-			<image path="/images/personal/12.jpg">
+			<image path="/images/personal/freestyle/12.jpg">
 				<name>12.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/12.jpg" />
+				<thumbnail path="/images/personal/thumbs/12.jpg" />
 				<title>Some title for cafe 12</title>
 			</image>
-			<image path="/images/personal/13.jpg">
+			<image path="/images/personal/freestyle/13.jpg">
 				<name>13.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/13.jpg" />
+				<thumbnail path="/images/personal/thumbs/13.jpg" />
 				<title>Some title for cafe 13</title>
 			</image>
-			<image path="/images/personal/14.jpg">
+			<image path="/images/personal/freestyle/14.jpg">
 				<name>14.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/14.jpg" />
+				<thumbnail path="/images/personal/thumbs/14.jpg" />
 				<title>Some title for cafe 14</title>
 			</image>
-			<image path="/images/personal/15.jpg">
+			<image path="/images/personal/freestyle/15.jpg">
 				<name>15.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/15.jpg" />
+				<thumbnail path="/images/personal/thumbs/15.jpg" />
 				<title>Some title for cafe 15</title>
 			</image>
-			<image path="/images/personal/16.jpg">
+			<image path="/images/personal/freestyle/16.jpg">
 				<name>16.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/16.jpg" />
+				<thumbnail path="/images/personal/thumbs/16.jpg" />
 				<title>Some title for cafe 16</title>
 			</image>
-			<image path="/images/personal/17.jpg">
+			<image path="/images/personal/freestyle/17.jpg">
 				<name>17.jpg</name>
-				<thumbnail path="/images/personal/thumbs_personal/17.jpg" />
+				<thumbnail path="/images/personal/thumbs/17.jpg" />
 				<title>Some title for cafe 17</title>
 			</image>
 		</album>
@@ -194,54 +179,54 @@
 		<album name="magis">
 			<image path="/images/editorial/1.jpg">
 				<name>1.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/1.jpg" />
+				<thumbnail path="/images/editorial/thumbs/1.jpg" />
 				<title>Some title for 1</title>
 			</image>
 			<image path="/images/editorial/2.jpg">
 				<name>2.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/2.jpg" />
+				<thumbnail path="/images/editorial/thumbs/2.jpg" />
 				<title>Some title for 1</title>
 			</image>
 			<image path="/images/editorial/3.jpg">
 				<name>3.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/3.jpg" />
+				<thumbnail path="/images/editorial/thumbs/3.jpg" />
 				<title>Some title for 1</title>
 			</image>
 			<image path="/images/editorial/4.jpg">
 				<name>4.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/4.jpg" />
+				<thumbnail path="/images/editorial/thumbs/4.jpg" />
 				<title>Some title for 1</title>
 			</image>
 			<image path="/images/editorial/5.jpg">
 				<name>5.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/5.jpg" />
+				<thumbnail path="/images/editorial/thumbs/5.jpg" />
 				<title>Some title for 1</title>
 			</image>
 			<image path="/images/editorial/6.jpg">
 				<name>6.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/6.jpg" />
+				<thumbnail path="/images/editorial/thumbs/6.jpg" />
 				<title>Some title for 1</title>
 			</image>
 			<image path="/images/editorial/7.jpg">
 				<name>7.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/7.jpg" />
+				<thumbnail path="/images/editorial/thumbs/7.jpg" />
 				<title>Some title for 1</title>
 			</image>
 			<image path="/images/editorial/8.jpg">
 				<name>8.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/8.jpg" />
+				<thumbnail path="/images/editorial/thumbs/8.jpg" />
 				<title>Some title for 1</title>
 			</image>
 			<image path="/images/editorial/9.jpg">
 				<name>9.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/9.jpg" />
+				<thumbnail path="/images/editorial/thumbs/9.jpg" />
 				<title>Some title for 1</title>
 			</image>
 		</album>
 		<album name="la curiosidad">
 			<image path="/images/editorial/cafe1.jpg">
 				<name>cafe1.jpg</name>
-				<thumbnail path="/images/editorial/thumbs_editorial/cafe1.jpg" />
+				<thumbnail path="/images/editorial/thumbs/cafe1.jpg" />
 				<title>Some title for cafe 1</title>
 			</image>
 		</album>

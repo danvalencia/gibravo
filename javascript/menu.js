@@ -23,3 +23,8 @@ Menu.getSectionNumber = function(section)
 						return 3;
 		}
 }
+
+Menu.onContactClick = function()
+{
+	//	$.ajax()
+}
