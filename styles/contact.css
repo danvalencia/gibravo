@@ -1,0 +1,36 @@
+#contact_form
+{
+		background-color: #373233;
+		height: 500px;
+		width: 700px;
+		color : #6D6E71;
+		font-size: 10px;
+}
+
+#form_container
+{
+		margin-left: auto;
+		margin-right: auto;
+		text-align : center;
+		width : 400px;
+		line-height: 30px;
+		padding-top : 40px;
+}
+
+.contact_field
+{
+		margin-bottom: 25px;
+}
+
+.text_input
+{
+		background-color: #1D1D1D;
+		border-style: none;
+		color: #FFFFFF;
+}
+
+textarea.text_input
+{
+		font-size: 12px;
+		font-family: Arial, "MS Trebuchet", sans-serif;
+}

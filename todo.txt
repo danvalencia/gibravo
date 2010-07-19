@@ -1,0 +1,8 @@
+[] Falta Contact.
+[] Menu izquierda con letra mas grande.
+[] Rollover thumbs de otro color.
+[] helvetica bold si se puede.
+[] separar header del body
+[] justificar el menu
+[] alinear menu con thumbnails
+[] 

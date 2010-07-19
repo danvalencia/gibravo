@@ -25,6 +25,6 @@
 		</li>
 	<?php endforeach ?>
 	<li class="item_sections">
-		<a class="section section_unselected" onclick="Menu.onContactClick()" href="/application/controller/MainController.php?showContact=true">CONTACT</a>
+		<a href="/contact" class="section section_unselected" onclick="Menu.onContactClick()" >CONTACT</a>
 	</li>
 </ul>
