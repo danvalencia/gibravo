@@ -232,6 +232,51 @@
 		</album>
 	</section>
 	<section name="sketchbooks">
+		<image path="/images/editorial/1.jpg">
+			<name>1.jpg</name>
+			<thumbnail path="/images/editorial/thumbs/1.jpg" />
+			<title>Some title for 1</title>
+		</image>
+		<image path="/images/editorial/2.jpg">
+			<name>2.jpg</name>
+			<thumbnail path="/images/editorial/thumbs/2.jpg" />
+			<title>Some title for 1</title>
+		</image>
+		<image path="/images/editorial/3.jpg">
+			<name>3.jpg</name>
+			<thumbnail path="/images/editorial/thumbs/3.jpg" />
+			<title>Some title for 1</title>
+		</image>
+		<image path="/images/editorial/4.jpg">
+			<name>4.jpg</name>
+			<thumbnail path="/images/editorial/thumbs/4.jpg" />
+			<title>Some title for 1</title>
+		</image>
+		<image path="/images/editorial/5.jpg">
+			<name>5.jpg</name>
+			<thumbnail path="/images/editorial/thumbs/5.jpg" />
+			<title>Some title for 1</title>
+		</image>
+		<image path="/images/editorial/6.jpg">
+			<name>6.jpg</name>
+			<thumbnail path="/images/editorial/thumbs/6.jpg" />
+			<title>Some title for 1</title>
+		</image>
+		<image path="/images/editorial/7.jpg">
+			<name>7.jpg</name>
+			<thumbnail path="/images/editorial/thumbs/7.jpg" />
+			<title>Some title for 1</title>
+		</image>
+		<image path="/images/editorial/8.jpg">
+			<name>8.jpg</name>
+			<thumbnail path="/images/editorial/thumbs/8.jpg" />
+			<title>Some title for 1</title>
+		</image>
+		<image path="/images/editorial/9.jpg">
+			<name>9.jpg</name>
+			<thumbnail path="/images/editorial/thumbs/9.jpg" />
+			<title>Some title for 1</title>
+		</image>
 	</section>
 	<section name="blog">
 	</section>

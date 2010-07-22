@@ -10,6 +10,9 @@ class Section
 	//Un array de albumes
 	private $_albums;
 	
+	//Un array de imagenes
+	private $_images;
+	
 	private $_name;
 	
 	public function getAlbums()
@@ -32,5 +35,27 @@ class Section
 	{
 		$this->_name = $name;
 	}
+
+	public function getImages()
+	{
+		return $this->_images;
+		#return "thissssss";
+	}
+	
+	public function setImages($images)
+	{
+		$this->_images = $images;
+	}
+	
+	public function hasImages()
+	{
+		if(isset($this->_images) && count($this->_images) > 0)
+		{
+			return true;
+		} 
+		
+		return false;
+	}
+
 }
 ?>

@@ -83,6 +83,8 @@ DirectoryIndex /application/controller/MainController.php
   RewriteRule ^main/([^/]+)/([^/]+)/([^/]+)$ application/controller/MainController.php?seccion=$1&album=$2&imagen=$3 [L,QSA]
   RewriteRule ^main/([^/]+)/([^/]+)$ application/controller/MainController.php?seccion=$1&album=$2 [QSA]
   RewriteRule ^contact$ application/controller/MainController.php?showContact=true [QSA]
+  RewriteRule ^contact/send$ application/controller/MailController.php [QSA]
+  RewriteRule ^info$ application/controller/info.php [QSA]
 	#RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 </IfModule>
 

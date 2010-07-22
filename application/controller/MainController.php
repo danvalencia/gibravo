@@ -6,6 +6,7 @@ $main = "main.php";
 if(isset($show_contact))
 {
 	$main = "contact.php";
+	$hide_arrows = false;
 }
 
 $seccion_name = $_GET['seccion'];

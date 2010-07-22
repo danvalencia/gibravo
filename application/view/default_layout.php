@@ -30,9 +30,11 @@
 		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/menu.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/javascript/mail.js"></script>
 		<script type="text/javascript" >
 		$(document).ready(function() {
 			Menu.initMenu("<?= $seccion_name ?>");
+			$("input:submit").button();
 		});   
 		</script>
 	</body>
