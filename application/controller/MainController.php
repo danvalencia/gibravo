@@ -48,7 +48,7 @@ else
 	$display_image=$images_in_album[0];
 }
 $image_count=0;
-$MAX_IMAGES=21;
+$MAX_IMAGES=24;
 
 
 include("../view/default_layout.php");
