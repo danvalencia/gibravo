@@ -14,6 +14,10 @@ class Section
 	private $_images;
 	
 	private $_name;
+
+	private $_url;
+
+	private $_urlTarget;
 	
 	public function getAlbums()
 	{
@@ -28,7 +32,6 @@ class Section
 	public function getName()
 	{
 		return $this->_name;
-		#return "thissssss";
 	}
 	
 	public function setName($name)
@@ -39,12 +42,35 @@ class Section
 	public function getImages()
 	{
 		return $this->_images;
-		#return "thissssss";
 	}
 	
 	public function setImages($images)
 	{
 		$this->_images = $images;
+	}
+	
+	public function getUrl()
+	{
+		if(isset($this->_url) && !empty($this->_url))
+		{
+			return $this->_url;
+		}
+		return "#";
+	}
+
+	public function setUrl($url)
+	{
+		return $this->_url = $url;
+	}
+	
+	public function getUrlTarget()
+	{
+		return $this->_urlTarget;
+	}
+
+	public function setUrlTarget($url_target)
+	{
+		return $this->_urlTarget = $url_target;
 	}
 	
 	public function hasImages()

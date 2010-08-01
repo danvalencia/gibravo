@@ -1,4 +1,6 @@
-<?php require("../services/ImageService.php");
+<?php 
+require("../services/ImageService.php");
+require("../../lib/logging.php");
 
 $show_contact = $_GET['showContact'];
 
@@ -12,6 +14,8 @@ if(isset($show_contact))
 $seccion_name = $_GET['seccion'];
 $album_name = $_GET['album'];
 $image_name = $_GET['imagen'];
+
+logToFile("Section Name: " . $seccion_name . ". Album: " . $album_name . ". Image: " . $image_name);
 
 $service = new ImageService();
 $sections = $service->fetchSections();
@@ -27,16 +31,30 @@ else
 }
 $albums=$section->getAlbums();
 
+
 if(isset($album_name))
 {
 	$album=$albums[$album_name];
+	$images_to_display = $album->getImages();
 }
 else
 {
-	$albums=array_values($albums);
-	$album=$albums[0];
+	logToFile("album is not set");
+	if($section->hasImages())
+	{
+		logToFile("section has images");
+		$images_to_display = $section->getImages();		
+		$display_image = $images_to_display[0];
+		//$images_in_album=array_values($images_in_section);
+	}
+	else
+	{
+		logToFile("section does not has images");
+		$albums=array_values($albums);
+		$album=$albums[0];		
+		$images_to_display = $album->getImages();
+	}
 }
-$images_in_album = $album->getImages();
 
 if(isset($image_name))
 {
@@ -44,8 +62,8 @@ if(isset($image_name))
 }
 else
 {
-	$images_in_album=array_values($images_in_album);
-	$display_image=$images_in_album[0];
+	$images_to_display=array_values($images_to_display);
+	$display_image=$images_to_display[0];
 }
 $image_count=0;
 $MAX_IMAGES=24;

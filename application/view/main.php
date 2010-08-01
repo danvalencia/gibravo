@@ -1,5 +1,5 @@
 <div id="thumb_panel">
-	<?php foreach ($album->getImages() as $image): ?>
+	<?php foreach ($images_to_display as $image): ?>
 		<?php $image_count++;?>
 		<div class="thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?>" onclick="Image.selectImage('<?= $image->getPath() ?>', this);">
 			<img src="<?= $image->getThumbnailPath()?>"></img>

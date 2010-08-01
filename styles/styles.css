@@ -45,6 +45,7 @@ Leftnav Styles
 
 ul.sections
 {
+	cursor:pointer;
 	padding: 0px 0px 0px 10px;
 	list-style-type: none;
 	line-height:20px;

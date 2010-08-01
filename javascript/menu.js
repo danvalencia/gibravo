@@ -24,7 +24,10 @@ Menu.getSectionNumber = function(section)
 		}
 }
 
-Menu.onContactClick = function()
+Menu.click = function(url)
 {
-	//	$.ajax()
+		if(url != "")
+		{
+				window.location = url;			
+		}
 }

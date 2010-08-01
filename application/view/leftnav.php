@@ -1,10 +1,18 @@
+<?php
+	function setHrefFor($section)
+	{
+		$href= "href=\"" . $section->getUrl() . "\"";
+		return $href;
+	}
+?>
 <ul id="menu" class="sections">
 	<?php foreach ($sections as $a_section): ?>
+		<?logToFile("Section Name: " . $a_section->getName() . ". Url: " .  $a_section->getUrl())?>
 		<li class="item_sections">
 			<?php if (strcasecmp($a_section->getName(), $seccion_name) == 0): ?>
-				<a class="section section_selected" id="<?=$a_section->getName()?>" href="<?= "/main/" . $a_section->getName()?>"><?= strtoupper($a_section->getName()) ?></a>
+				<a class="section section_selected" id="<?=$a_section->getName()?>" <?= setHrefFor($a_section) ?> onclick="Menu.click(this.href)" ><?= strtoupper($a_section->getName()) ?></a>
 			<?php else: ?>
-			    <a class="section section_unselected" href="<?= "/main/" . $a_section->getName()?>" id="<?=$a_section->getName()?>"><?= strtoupper($a_section->getName()) ?></a>
+			    <a class="section section_unselected" <?= setHrefFor($a_section) ?>  id="<?=$a_section->getName()?>" onclick="Menu.click(this.href)"><?= strtoupper($a_section->getName()) ?></a>
 			<?php endif ?>								
 			<ul class="albums">
 				<?php foreach ($a_section->getAlbums() as $an_album): ?>
@@ -24,7 +32,4 @@
 			</ul>
 		</li>
 	<?php endforeach ?>
-	<li class="item_sections">
-		<a href="/contact" class="section section_unselected" onclick="Menu.onContactClick()" >CONTACT</a>
-	</li>
 </ul>

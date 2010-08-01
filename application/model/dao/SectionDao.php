@@ -26,9 +26,15 @@ class SectionDao
 		{
 			$section_obj = new Section();
 			$section_name = (string) $section->attributes()->name;
+			$section_url = (string) $section->attributes()->url;
+			$section_url_target = (string) $section->attributes()->target;
+			
 			$section_obj->setName($section_name);
+			$section_obj->setUrl($section_url);
+			$section_obj->setUrlTarget($section_url_target);
 			$album_arr = array();
 			$section_image_arr = array();
+			
 			foreach($section->album as $album)
 			{
 				$album_obj = new Album();
@@ -50,6 +56,7 @@ class SectionDao
 				$section_image_arr[$image_obj->getName()]=$image_obj;
 			}
 			
+			$section_obj->setImages($section_image_arr);
 			$section_obj->setAlbums($album_arr);
 			$sections_array[$section_name]=$section_obj;
 		}
