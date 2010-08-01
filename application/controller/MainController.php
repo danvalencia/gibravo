@@ -5,15 +5,18 @@ require("../../lib/logging.php");
 $show_contact = $_GET['showContact'];
 
 $main = "main.php";
+
+$seccion_name = $_GET['seccion'];
+
 if(isset($show_contact))
 {
+	$seccion_name = "contact";
 	$main = "contact.php";
 	$hide_arrows = false;
 }
-
-$seccion_name = $_GET['seccion'];
 $album_name = $_GET['album'];
 $image_name = $_GET['imagen'];
+
 
 logToFile("Section Name: " . $seccion_name . ". Album: " . $album_name . ". Image: " . $image_name);
 
@@ -51,8 +54,11 @@ else
 	{
 		logToFile("section does not has images");
 		$albums=array_values($albums);
-		$album=$albums[0];		
-		$images_to_display = $album->getImages();
+		$album=$albums[0];
+		if(isset($album))
+		{
+			$images_to_display = $album->getImages();			
+		}		
 	}
 }
 
@@ -62,8 +68,11 @@ if(isset($image_name))
 }
 else
 {
-	$images_to_display=array_values($images_to_display);
-	$display_image=$images_to_display[0];
+	if(isset($images_to_display))
+	{
+		$images_to_display=array_values($images_to_display);
+		$display_image=$images_to_display[0];		
+	}
 }
 $image_count=0;
 $MAX_IMAGES=24;

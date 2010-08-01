@@ -21,6 +21,8 @@ Menu.getSectionNumber = function(section)
 						return 2;
 				case "blog":
 						return 3;
+				case "contact":
+						return 4;
 		}
 }
 

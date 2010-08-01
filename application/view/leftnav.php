@@ -7,7 +7,7 @@
 ?>
 <ul id="menu" class="sections">
 	<?php foreach ($sections as $a_section): ?>
-		<?logToFile("Section Name: " . $a_section->getName() . ". Url: " .  $a_section->getUrl())?>
+		<?logToFile("Section Name: " . $a_section->getName() . ". Url: " .  $a_section->getUrl() . ". Selected Section: " . $seccion_name)?>
 		<li class="item_sections">
 			<?php if (strcasecmp($a_section->getName(), $seccion_name) == 0): ?>
 				<a class="section section_selected" id="<?=$a_section->getName()?>" <?= setHrefFor($a_section) ?> onclick="Menu.click(this.href)" ><?= strtoupper($a_section->getName()) ?></a>

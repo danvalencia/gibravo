@@ -1,6 +1,3 @@
-[In progress] Falta Contact.
-[In progress] Sketchbooks link.
-
 [] Menu izquierda con letra mas grande.
 [] Rollover thumbs de otro color.
 [] helvetica bold si se puede.
@@ -13,4 +10,7 @@
 [] Imagen inicio.
 [] Añadir href a lo anchors de los thumbs.
 
+Finished:
 [X] Rename images, etc.
+[X] Sketchbooks link.
+[X] Falta Contact.
