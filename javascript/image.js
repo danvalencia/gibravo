@@ -1,11 +1,15 @@
 Image={}
 
-Image.selectImage = function(imageName, imgThumb)
+Image.selectImage = function(imageName, imgThumb, imgTitle)
 {
 		$(".thumb").removeClass("thumb_selected");
 		$(imgThumb).addClass("thumb_selected");
-		$('#_image').fadeOut(600, function(){
-				$('#_image').addClass("hidden").attr('src', imageName).fadeIn(800);
+
+		$('#_image').addClass("hidden").fadeOut(600, function(){
+				$('#_image').attr('src', imageName).fadeIn(800);
+				$("#image_title").fadeOut(200, function(){
+						$("#image_title").addClass("hidden").text(imgTitle).fadeIn("slow");
+				});
 		});
 }
 

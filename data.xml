@@ -5,7 +5,7 @@
 			<image path="/images/personal/cities/ciudad1.jpg">
 				<name>ciudad1.jpg</name>
 				<thumbnail path="/images/personal/cities/thumbs/ciudad1.jpg"/>
-				<title>Some title for 1</title>
+				<title>Image Title</title>
 			</image>
 			<image path="/images/personal/cities/ciudad2.jpg">
 				<name>ciudad2.jpg</name>

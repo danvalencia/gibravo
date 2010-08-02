@@ -15,7 +15,7 @@ html,body
 #page-container
 {
 /*	padding-top:10px;
-*/	width: 830px;
+*/	width: 900px;
 	margin: auto;
 }
 
@@ -100,21 +100,34 @@ Main panel styles
 #main
 {
 	float:left;
-	height:500px;
-	width: 700px;
+	height:650px;
+	width: 770px;
 }
 
 #thumb_panel
 {
 	width:160px;
-	height:650px;
+	height:585px;
 	float:left;
 }
 
 #image_panel
 {
-	width:800px;
-	height:650px;
+	float: right;
+	width:600px;
+	height:585px;
+}
+
+#image_footer
+{
+	margin-left : 175px;
+	clear : both;
+	width : 540px ;
+}
+
+#flechas
+{
+	float: right;
 }
 
 /**
@@ -172,14 +185,18 @@ Footer
 #footer
 {
 	height:30px;
-	padding-top:90px;
 	clear:both;
 	text-align:right;
-	
 }
 
 .flecha
 {
+	right: 0px;
 	cursor: pointer;
 	padding-left: 23px;
+}
+
+#image_title
+{
+	float: left;
 }

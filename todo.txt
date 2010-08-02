@@ -1,5 +1,4 @@
-[IN PROGRESS] flechas para cambiar imagenes.
-
+Task Queue:
 [] Menu izquierda con letra mas grande.
 [] Rollover thumbs de otro color.
 [] helvetica bold si se puede.
@@ -7,11 +6,14 @@
 [] justificar el menu.
 [] alinear menu con thumbnails.
 [] Styles en menu.
-[] Texto imagenes.
 [] Imagen inicio.
 [] Añadir href a lo anchors de los thumbs.
+
+In Progress:
+[] Texto imagenes.
 
 Finished:
 [X] Rename images, etc.
 [X] Sketchbooks link.
 [X] Falta Contact.
+[X] flechas para cambiar imagenes.
