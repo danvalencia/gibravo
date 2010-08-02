@@ -4,8 +4,8 @@ Image.selectImage = function(imageName, imgThumb)
 {
 		$(".thumb").removeClass("thumb_selected");
 		$(imgThumb).addClass("thumb_selected");
-		$('#_image').fadeOut("slow", function(){
-				$('#_image').fadeIn("slow").attr('src', imageName);
+		$('#_image').fadeOut(600, function(){
+				$('#_image').addClass("hidden").attr('src', imageName).fadeIn(800);
 		});
 }
 

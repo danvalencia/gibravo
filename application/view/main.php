@@ -11,5 +11,5 @@
 </div>
 <div id="image_panel" >
 	<!-- <img id="_image" style="opacity:0.1;filter:alpha(opacity=40)" src="/images/pajaro_web2.jpg"></img> -->
-	<img id="_image" src="<?= $display_image->getPath() ?>"></img>
+	<img id="_image" style="display:none"></img>
 </div>

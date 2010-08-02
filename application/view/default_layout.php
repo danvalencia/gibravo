@@ -36,6 +36,7 @@
 			Menu.initMenu("<?= $seccion_name ?>");
 			Image.init();
 			$("input:submit").button();
+			$(".thumb.image").first().click();
 			
 		});   
 		</script>
