@@ -1,12 +1,12 @@
 <div id="thumb_panel">
 	<?php foreach ($images_to_display as $image): ?>
 		<?php $image_count++;?>
-		<div class="thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?>" onclick="Image.selectImage('<?= $image->getPath() ?>', this);">
+		<div class="thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?> image" onclick="Image.selectImage('<?= $image->getPath() ?>', this);">
 			<img src="<?= $image->getThumbnailPath()?>"></img>
 		</div>
 	<?php endforeach ?>
 	<?php for ($i=$image_count; $i < $MAX_IMAGES; $i++): ?>
-		<div class="thumb"></div>
+		<div class="thumb empty"></div>
 	<?php endfor?>
 </div>
 <div id="image_panel" >

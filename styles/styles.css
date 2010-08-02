@@ -177,3 +177,9 @@ Footer
 	text-align:right;
 	
 }
+
+.flecha
+{
+	cursor: pointer;
+	padding-left: 23px;
+}

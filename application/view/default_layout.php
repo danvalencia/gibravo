@@ -34,7 +34,9 @@
 		<script type="text/javascript" >
 		$(document).ready(function() {
 			Menu.initMenu("<?= $seccion_name ?>");
+			Image.init();
 			$("input:submit").button();
+			
 		});   
 		</script>
 	</body>
