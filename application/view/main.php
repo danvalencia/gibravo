@@ -11,7 +11,8 @@
 </div>
 <div id="image_panel" >
 	<!-- <img id="_image" style="opacity:0.1;filter:alpha(opacity=40)" src="/images/pajaro_web2.jpg"></img> -->
-	<img id="_image" style="display:none"></img>
+	<img class="_image active" style="display:none"></img>
+	<img class="_image hidden_image" style="display:none"></img>
 </div>
 <div id="image_footer">
 	<?php if(!isset($hide_arrows)): ?>

@@ -4,13 +4,16 @@ Image.selectImage = function(imageName, imgThumb, imgTitle)
 {
 		$(".thumb").removeClass("thumb_selected");
 		$(imgThumb).addClass("thumb_selected");
-
-		$('#_image').addClass("hidden").fadeOut(600, function(){
-				$('#_image').attr('src', imageName).fadeIn(800);
-				$("#image_title").fadeOut(200, function(){
-						$("#image_title").addClass("hidden").text(imgTitle).fadeIn("slow");
-				});
+		
+		var hiddenImage = $('._image.hidden_image').attr('src', imageName);
+		var activeImage = $('._image.active');
+		activeImage.fadeOut(400, function(){
+				$("#image_title").addClass("hidden").text(imgTitle).fadeIn("slow");
+				activeImage.removeClass('active').addClass("hidden_image");
+				hiddenImage.addClass("active").removeClass("hidden_image");
+				hiddenImage.fadeIn(800);
 		});
+		
 }
 
 Image.init = function()

@@ -130,6 +130,20 @@ Main panel styles
 	float: right;
 }
 
+._image
+{
+	position : absolute;
+}
+
+.hidden_image
+{
+	z-index : -1;
+}
+.active
+{
+	z-index : 1;
+}
+
 /**
 Thumbs
 */
@@ -199,4 +213,7 @@ Footer
 #image_title
 {
 	float: left;
+	font-family: "Helvetica Black", "Helvetica", sans-serif;
+	font-size:12px;
+	color: #FFFFFF;
 }
