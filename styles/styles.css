@@ -15,7 +15,7 @@ html,body
 #page-container
 {
 /*	padding-top:10px;
-*/	width: 900px;
+*/	width: 950px;
 	margin: auto;
 }
 
@@ -39,17 +39,18 @@ Leftnav Styles
 #leftnav
 {
 	float: left;
-	width : 113px;
+	width : 150px;
 	height:500px;
 }
 
 ul.sections
 {
 	cursor:pointer;
-	padding: 0px 0px 0px 10px;
+	padding: 0px 20px 0px 10px;
 	list-style-type: none;
-	line-height:20px;
+	line-height:30px;
 	margin : 0px;
+	font-weight : bold;
 }
 
 li>a{
@@ -62,15 +63,23 @@ ul.albums
 {
 	margin-top: 0px;
 	list-style-type: none;
-	padding-right: 25px;
-	text-align : left;
+	padding-right: 3px;
+	text-align : right;
 	padding-left:15px;
+}
+
+ul.albums li
+{
+	line-height : 20px;
+	font-size: 12px;
+	
 }
 
 .item_sections
 {
-	font-size: 10px;
+	font-size: 14px;
 	color:#585857;
+	text-align : right;
 	/*hover color: F5F5F5*/
 }
 
