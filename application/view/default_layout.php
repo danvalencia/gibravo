@@ -33,7 +33,7 @@
 		<script type="text/javascript" charset="utf-8" src="/javascript/mail.js"></script>
 		<script type="text/javascript" >
 		$(document).ready(function() {
-			Menu.initMenu("<?= $seccion_name ?>");
+			Menu.initMenu("<?= $is_home_page ? 'home_page' : $seccion_name ?>");
 			Image.init();
 			$("input:submit").button();
 			$(".thumb.image").first().click();

@@ -7,7 +7,16 @@ Menu.initMenu = function(section)
 			autoHeight : false,
 			disabled : true,
 			active : Menu.getSectionNumber(section)
-		});
+		});			
+		
+		if(section == "home_page")
+		{
+			$("#menu").accordion("activate", false);
+		}
+		else
+		{
+			$("#menu").accordion("activate", Menu.getSectionNumber(section));
+		}
 		$("#menu").accordion("enable");
 }
 
@@ -25,6 +34,8 @@ Menu.getSectionNumber = function(section)
 						return 3;
 				case "contact":
 						return 4;
+				default:
+						return 5;
 		}
 }
 

@@ -5,6 +5,7 @@
 		width: 600px;
 		color : #6D6E71;
 		font-size: 10px;
+		text-align : center;
 }
 
 #form_container
@@ -47,7 +48,8 @@ textarea.text_input
 
 #sendmail
 {
-		color: #FFF;
-		background-color: #900;
-		font-weight: bold;
+		color: #6D6E71;
+		background-color: #FEF000;
+		border-color : #FEF000;
+		border-style : solid;
 }

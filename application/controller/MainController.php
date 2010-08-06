@@ -17,7 +17,10 @@ if(isset($show_contact))
 $album_name = $_GET['album'];
 $image_name = $_GET['imagen'];
 
+$is_home_page = $hide_arrows = !isset($seccion_name) && !isset($album_name) && !isset($image_name);
 
+
+logToFile("Is home page: " . ($is_home_page ? "true" : "false"));
 logToFile("Section Name: " . $seccion_name . ". Album: " . $album_name . ". Image: " . $image_name);
 
 $service = new ImageService();

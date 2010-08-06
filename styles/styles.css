@@ -60,6 +60,11 @@ a{
 	outline:none;
 }
 
+a img
+{
+	border : none;
+	outline : none;
+}
 
 ul.albums
 {
@@ -117,7 +122,7 @@ Main panel styles
 
 #thumb_panel
 {
-	width:160px;
+	width:165px;
 	height:585px;
 	float:left;
 }

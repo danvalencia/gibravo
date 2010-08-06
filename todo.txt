@@ -1,10 +1,10 @@
 Task Queue:
 [] Rollover thumbs de otro color.
 [] Styles en menu.
-[] Imagen inicio.
 [] Añadir href a lo anchors de los thumbs.
 
 In Progress:
+[] Imagen inicio.
 
 Finished:
 [X] Rename images, etc.
