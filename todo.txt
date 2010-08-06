@@ -1,12 +1,12 @@
 Task Queue:
-[] Rollover thumbs de otro color.
-[] Styles en menu.
 [] Añadir href a lo anchors de los thumbs.
 
 In Progress:
-[] Imagen inicio.
+[] Rollover thumbs de otro color.
+[] Styles en menu.
 
 Finished:
+[X] Imagen inicio.
 [X] Rename images, etc.
 [X] Sketchbooks link.
 [X] Falta Contact.
