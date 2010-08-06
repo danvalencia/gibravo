@@ -26,19 +26,17 @@
 				<?php include("footer.php");?>
 			</div>
 		</div>
-		<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/javascript/jquery-1.4.2.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/menu.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/mail.js"></script>
-		<script type="text/javascript" charset="utf-8" src="/javascript/jquery-ui-1.8.2.custom.min.js"></script>
 		<script type="text/javascript" >
 		$(document).ready(function() {
 			Menu.initMenu("<?= $seccion_name ?>");
 			Image.init();
 			$("input:submit").button();
 			$(".thumb.image").first().click();
-			
 		});   
 		</script>
 	</body>

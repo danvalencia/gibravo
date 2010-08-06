@@ -5,8 +5,10 @@ Menu.initMenu = function(section)
 		$("#menu").accordion({
 			collapsible : true,
 			autoHeight : false,
+			disabled : true,
 			active : Menu.getSectionNumber(section)
 		});
+		$("#menu").accordion("enable");
 }
 
 Menu.getSectionNumber = function(section)

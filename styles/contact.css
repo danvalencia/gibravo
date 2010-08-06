@@ -44,3 +44,10 @@ textarea.text_input
 		text-align : center;
 		padding-top : 230px;
 }
+
+#sendmail
+{
+		color: #FFF;
+		background-color: #900;
+		font-weight: bold;
+}

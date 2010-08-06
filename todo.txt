@@ -1,19 +1,19 @@
 Task Queue:
-[] Menu izquierda con letra mas grande.
 [] Rollover thumbs de otro color.
-[] helvetica bold si se puede.
-[] separar header del body.
-[] justificar el menu.
-[] alinear menu con thumbnails.
 [] Styles en menu.
 [] Imagen inicio.
 [] Añadir href a lo anchors de los thumbs.
 
 In Progress:
-[] Texto imagenes.
 
 Finished:
 [X] Rename images, etc.
 [X] Sketchbooks link.
 [X] Falta Contact.
 [X] flechas para cambiar imagenes.
+[X] Menu izquierda con letra mas grande.
+[X] Texto imagenes.
+[X] alinear menu con thumbnails.
+[X] justificar el menu.
+[X] separar header del body.
+[X] helvetica bold si se puede.

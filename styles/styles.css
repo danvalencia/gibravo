@@ -28,7 +28,7 @@ Header Styles
 }
 
 #header_image{
-	left:114px;
+	left:155px;
 	top:21px;
 	position: relative;
 }
@@ -39,7 +39,7 @@ Leftnav Styles
 #leftnav
 {
 	float: left;
-	width : 150px;
+	width : 170px;
 	height:500px;
 }
 
@@ -51,9 +51,11 @@ ul.sections
 	line-height:30px;
 	margin : 0px;
 	font-weight : bold;
+	text-decoration : none;
+	
 }
 
-li>a{
+a{
 	text-decoration : none;
 	outline:none;
 }
@@ -71,13 +73,13 @@ ul.albums
 ul.albums li
 {
 	line-height : 20px;
-	font-size: 12px;
+	font-size: 13px;
 	
 }
 
 .item_sections
 {
-	font-size: 14px;
+	font-size: 15px;
 	color:#585857;
 	text-align : right;
 	/*hover color: F5F5F5*/
@@ -123,7 +125,7 @@ Main panel styles
 #image_panel
 {
 	float: right;
-	width:600px;
+	width:604px;
 	height:585px;
 }
 
