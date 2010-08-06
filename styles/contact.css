@@ -30,6 +30,10 @@
 		color: #FFFFFF;
 }
 
+.text_input:focus
+{
+		border:1px solid #FEF000;
+}
 textarea.text_input
 {
 		font-size: 12px;
@@ -52,4 +56,6 @@ textarea.text_input
 		background-color: #FEF000;
 		border-color : #FEF000;
 		border-style : solid;
+		width : 110px;
+		height : 30px;
 }

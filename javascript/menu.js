@@ -18,6 +18,11 @@ Menu.initMenu = function(section)
 			$("#menu").accordion("activate", Menu.getSectionNumber(section));
 		}
 		$("#menu").accordion("enable");
+		
+		if(section == "home_page")
+		{
+				Menu.intervalId = setInterval("Menu.highlightThumb()", 500);
+		}
 }
 
 Menu.getSectionNumber = function(section)
@@ -39,6 +44,22 @@ Menu.getSectionNumber = function(section)
 		}
 }
 
+Menu.highlightThumb = function()
+{
+		Menu.nextThumb = Math.floor(Math.random()*24);
+		if($(".thumb_selected").length == 0)
+		{
+			var nextThumb = $(".thumb").first();
+		}
+		else
+		{
+			var nextThumb = $(".thumb_selected").next();			
+		}
+		$(".thumb_selected").removeClass("thumb_selected");
+		//$(".thumb:nth-child(" + randomThumb + ")").addClass("thumb_selected");
+		nextThumb.addClass("thumb_selected");
+}
+
 Menu.click = function(url)
 {
 		if(url != "")
@@ -46,3 +67,5 @@ Menu.click = function(url)
 				window.location = url;			
 		}
 }
+
+Menu.intervalId = null;

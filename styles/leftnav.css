@@ -1,0 +1,116 @@
+/*
+Leftnav Styles
+*/
+#leftnav
+{
+	float: left;
+	width : 170px;
+	height:500px;
+}
+
+ul.sections
+{
+	cursor:pointer;
+	padding: 0px 20px 0px 10px;
+	list-style-type: none;
+	line-height:30px;
+	margin : 0px;
+	font-weight : bold;
+	text-decoration : none;
+	
+}
+
+a{
+	text-decoration : none;
+	outline:none;
+}
+
+a img
+{
+	border : none;
+	outline : none;
+}
+
+ul.albums
+{
+	margin-top: 0px;
+	list-style-type: none;
+	padding-right: 3px;
+	text-align : right;
+	padding-left:15px;
+}
+
+ul.albums li
+{
+	line-height : 20px;
+	font-size: 13px;
+	
+}
+
+.item_sections
+{
+	font-size: 15px;
+	color:#585857;
+	text-align : right;
+	/*hover color: F5F5F5*/
+}
+
+.section_selected
+{
+	color:#F5F5F5;
+}
+
+.section_unselected
+{
+	color:#585857;
+}
+
+.album_selected
+{
+	color:#FFF200;
+}
+
+.album_unselected
+{
+	color:#BCBEC0;
+}
+
+a.section:link
+{
+		
+}
+
+a.section:visited
+{
+	
+}
+
+a.section:hover
+{
+		color : #BCBEC0;
+}
+
+a.section:active
+{
+		color : #00A40E;
+}
+
+a.album:link
+{
+		
+}
+
+a.album:visited
+{
+	
+}
+
+a.album:hover
+{
+		color : #FF4D0F;
+}
+
+a.album:active
+{
+		color : #FFA40E;
+}
