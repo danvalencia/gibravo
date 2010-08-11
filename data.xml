@@ -5,7 +5,7 @@
 			<image path="/images/personal/cities/ciudad1.jpg">
 				<name>ciudad1.jpg</name>
 				<thumbnail path="/images/personal/cities/thumbs/ciudad1.jpg"/>
-				<title>Image Title</title>
+                <title><![CDATA[<p>Hello</p><p>World</p>]]></title>
 			</image>
 			<image path="/images/personal/cities/ciudad2.jpg">
 				<name>ciudad2.jpg</name>
@@ -131,6 +131,21 @@
 			<image path="/images/personal/freestyle/7.jpg">
 				<name>7.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/7.jpg"/>
+				<title>Some title for cafe 7</title>
+			</image>
+			<image path="/images/personal/freestyle/8.jpg">
+				<name>8.jpg</name>
+				<thumbnail path="/images/personal/freestyle/thumbs/8.jpg"/>
+				<title>Some title for cafe 8</title>
+			</image>
+			<image path="/images/personal/freestyle/9.jpg">
+				<name>9.jpg</name>
+				<thumbnail path="/images/personal/freestyle/thumbs/9.jpg"/>
+				<title>Some title for cafe 9</title>
+			</image>
+			<image path="/images/personal/freestyle/10.jpg">
+				<name>10.jpg</name>
+				<thumbnail path="/images/personal/freestyle/thumbs/10.jpg"/>
 				<title>Some title for cafe 7</title>
 			</image>
 			<image path="/images/personal/freestyle/11.jpg">
@@ -396,4 +411,8 @@
 	<section name="contact" url="/contact" target="_self">
 		
 	</section>
+	<section name="wallpaper" url="/wallpaper" target="_self">
+		
+	</section>
+
 </sections>

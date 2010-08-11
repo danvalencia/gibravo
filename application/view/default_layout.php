@@ -21,7 +21,7 @@
 				<?php include("leftnav.php");?>
 			</div>
 			<div id="main">
-				<?php include($main);?>
+				<?php include($view);?>
 			</div>
 			<div id="footer">
 				<?php include("footer.php");?>
@@ -40,5 +40,6 @@
 			$(".thumb.image").first().click();
 		});   
 		</script>
+		<img id="random_fly" src="/images/fly1.png" class="hidden"></img>
 	</body>
 </html>

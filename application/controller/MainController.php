@@ -2,16 +2,16 @@
 require("../services/ImageService.php");
 require("../../lib/logging.php");
 
-$show_contact = $_GET['showContact'];
+$view_name = $_GET['view'];
 
-$main = "main.php";
+$view = "main.php";
 
 $seccion_name = $_GET['seccion'];
 
-if(isset($show_contact))
+if(isset($view_name))
 {
-	$seccion_name = "contact";
-	$main = "contact.php";
+	$seccion_name = $view_name;
+	$view = $view_name . ".php";
 	$hide_arrows = false;
 }
 $album_name = $_GET['album'];

@@ -1,10 +1,10 @@
 #contact_form
 {
 		background-color: #373233;
-		height: 500px;
-		width: 600px;
+		height: 650px;
+		width: 770px;
 		color : #6D6E71;
-		font-size: 10px;
+		font-size: 14px;
 		text-align : center;
 }
 
@@ -13,9 +13,9 @@
 		margin-left: auto;
 		margin-right: auto;
 		text-align : center;
-		width : 400px;
+		width : 550px;
 		line-height: 30px;
-		padding-top : 40px;
+		padding-top : 100px;
 }
 
 .contact_field
@@ -28,16 +28,24 @@
 		background-color: #1D1D1D;
 		border-style: none;
 		color: #FFFFFF;
+		width : 450px;
 }
 
 .text_input:focus
 {
 		border:1px solid #FEF000;
+		font-family: "Helvetica Black", "Helvetica", sans-serif;
+		
 }
 textarea.text_input
 {
-		font-size: 12px;
-		font-family: Arial, "MS Trebuchet", sans-serif;
+		font-size: 14px;
+		font-family: "Helvetica Black", "Helvetica", sans-serif;
+}
+
+input.text_input
+{
+		font-size : 14px;
 }
 
 #message
@@ -45,7 +53,7 @@ textarea.text_input
 		font-size : 16px;
 		margin-left: auto;
 		margin-right: auto;
-		width : 400px;
+		width : 550px;
 		text-align : center;
 		padding-top : 230px;
 }
@@ -58,4 +66,10 @@ textarea.text_input
 		border-style : solid;
 		width : 110px;
 		height : 30px;
+		font-size: 13px;
+}
+
+#contact_submit
+{
+		padding-top : 20px;
 }

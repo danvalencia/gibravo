@@ -13,7 +13,8 @@
 				<a class="section section_selected" id="<?=$a_section->getName()?>" <?= setHrefFor($a_section) ?> onclick="Menu.click(this.href)" ><?= strtoupper($a_section->getName()) ?></a>
 			<?php else: ?>
 			    <a class="section section_unselected" <?= setHrefFor($a_section) ?>  id="<?=$a_section->getName()?>" onclick="Menu.click(this.href)"><?= strtoupper($a_section->getName()) ?></a>
-			<?php endif ?>								
+			<?php endif ?>		
+			<?php if($a_section->hasAlbums()): ?>						
 			<ul class="albums">
 				<?php foreach ($a_section->getAlbums() as $an_album): ?>
 					<?php if (strcasecmp($a_section->getName(), $seccion_name) == 0): ?>
@@ -30,6 +31,7 @@
 					</li>
 				<?php endforeach ?>
 			</ul>
+			<?php endif ?>
 		</li>
 	<?php endforeach ?>
 </ul>

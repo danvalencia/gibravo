@@ -82,6 +82,15 @@ class Section
 		
 		return false;
 	}
-
+	
+	public function hasAlbums()
+	{
+		if(isset($this->_albums) && count($this->_albums) > 0)
+		{
+			return true;
+		}
+		return false;
+	}
+	
 }
 ?>

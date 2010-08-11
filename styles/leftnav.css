@@ -38,6 +38,7 @@ ul.albums
 	padding-right: 3px;
 	text-align : right;
 	padding-left:15px;
+	padding-bottom: 10px;
 }
 
 ul.albums li
@@ -68,6 +69,7 @@ ul.albums li
 .album_selected
 {
 	color:#FFF200;
+	text-decoration: underline;
 }
 
 .album_unselected
@@ -107,10 +109,21 @@ a.album:visited
 
 a.album:hover
 {
-		color : #FF4D0F;
+		color : #FFF200;
 }
 
 a.album:active
 {
 		color : #FFA40E;
+}
+
+a.album_selected:hover
+{
+		color : #FFF200;
+		text-decoration: underline;
+}
+
+a.section_selected:hover
+{
+	color:#F5F5F5;
 }

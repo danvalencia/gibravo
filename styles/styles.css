@@ -168,3 +168,9 @@ Footer
 	font-size:12px;
 	color: #FFFFFF;
 }
+
+#random_fly
+{
+	position : fixed;
+	z-index : 100;
+}
