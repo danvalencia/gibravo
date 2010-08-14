@@ -161,7 +161,7 @@ Footer
 	padding-left: 23px;
 }
 
-#image_title
+#image_footer
 {
 	float: left;
 	font-family: "Helvetica Black", "Helvetica", sans-serif;
@@ -171,7 +171,7 @@ Footer
 
 #random_fly
 {
-	position : fixed;
+	position : fixed	;
 	z-index : 100;
 }
 
@@ -179,4 +179,9 @@ Footer
 {
 	font-size: 10px;
 	color: #585857;
+}
+
+#image_title
+{
+	padding-left: 47px;
 }

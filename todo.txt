@@ -3,6 +3,8 @@ Task Queue:
 [] espacio entre secciones un poco mayor.
 [] copyright
 [] screensaver link
+[] fix fly position
+[] arreglar comillas
 
 In Progress:
 [] Rollover thumbs de otro color.

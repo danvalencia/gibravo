@@ -1,6 +1,6 @@
 <div id="wallpaper_container">
 	<div id="wallpaper_title">
-		FREE WALLPAPER <div style="color:#FFF200; ">EVERY MONTH</div>
+		FREE WALLPAPER <span style=>EVERY MONTH</span> <div style="color:#FFF200; ">AUGUST 2010</div>
 	</div>
 	<div id="wallpaper_image_container">
 		<img src="/images/wallpapers/wallpaper_preview.jpg" id="wallpaper_image"></img>

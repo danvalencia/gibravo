@@ -4,55 +4,55 @@
 		<album name="cities">
 			<image path="/images/personal/cities/ciudad1.jpg">
 				<name>ciudad1.jpg</name>
-				<thumbnail path="/images/personal/cities/thumbs/ciudad1.jpg"/>
-                <title></title>
+				<thumbnail path="/images/personal/cities/thumbs/ciudad1.jpg"></thumbnail>
+                <title>CITIES WITHIN CITIES - Helsinki, Finland - 2007</title>
 			</image>
 			<image path="/images/personal/cities/ciudad2.jpg">
 				<name>ciudad2.jpg</name>
 				<thumbnail path="/images/personal/cities/thumbs/ciudad2.jpg"/>
-				<title></title>
+                <title>CITIES WITHIN CITIES - Helsinki, Finland - 2007</title>
 			</image>
 			<image path="/images/personal/cities/ciudad3.jpg">
 				<name>ciudad3.jpg</name>
 				<thumbnail path="/images/personal/cities/thumbs/ciudad3.jpg"/>
-				<title></title>
+                <title>CITIES WITHIN CITIES - Helsinki, Finland - 2007</title>
 			</image>
 			<image path="/images/personal/cities/ciudad4.jpg">
 				<name>ciudad4.jpg</name>
 				<thumbnail path="/images/personal/cities/thumbs/ciudad4.jpg"/>
-				<title></title>
+                <title>CITIES WITHIN CITIES - Helsinki, Finland - 2007</title>
 			</image>
 			<image path="/images/personal/cities/ciudad5.jpg">
 				<name>ciudad5.jpg</name>
 				<thumbnail path="/images/personal/cities/thumbs/ciudad5.jpg"/>
-				<title></title>
+                <title>CITIES WITHIN CITIES - Helsinki, Finland - 2007</title>
 			</image>
 		</album>
 		<album name="animal series">
 			<image path="/images/personal/animal_series/animal1.jpg">
 				<name>animal1.jpg</name>
 				<thumbnail path="/images/personal/animal_series/thumbs/animal1.jpg"/>
-				<title></title>
+				<title>THE ANIMAL SERIES - Aug. 2008</title>
 			</image>
 			<image path="/images/personal/animal_series/animal2.jpg">
 				<name>animal2.jpg</name>
 				<thumbnail path="/images/personal/animal_series/thumbs/animal2.jpg"/>
-				<title></title>
+				<title>THE ANIMAL SERIES - Aug. 2008</title>
 			</image>
 			<image path="/images/personal/animal_series/animal3.jpg">
 				<name>animal3.jpg</name>
 				<thumbnail path="/images/personal/animal_series/thumbs/animal3.jpg"/>
-				<title></title>
+				<title>THE ANIMAL SERIES - Aug. 2008</title>
 			</image>
 			<image path="/images/personal/animal_series/animal4.jpg">
 				<name>animal4.jpg</name>
 				<thumbnail path="/images/personal/animal_series/thumbs/animal4.jpg"/>
-				<title></title>
+				<title>THE ANIMAL SERIES - Aug. 2008</title>
 			</image>
 			<image path="/images/personal/animal_series/animal5.jpg">
 				<name>animal5.jpg</name>
 				<thumbnail path="/images/personal/animal_series/thumbs/animal5.jpg"/>
-				<title></title>
+				<title>THE ANIMAL SERIES - Aug. 2008</title>
 			</image>
 		</album>
 		<album name="patterns">
@@ -101,134 +101,134 @@
 			<image path="/images/personal/freestyle/1.jpg">
 				<name>1.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/1.jpg"/>
-				<title></title>
+				<title>PERSONAL WORK - 2010</title>
 			</image>
 			<image path="/images/personal/freestyle/2.jpg">
 				<name>2.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/2.jpg"/>
-				<title></title>
+				<title>PERSONAL WORK - 2010</title>
 			</image>
 			<image path="/images/personal/freestyle/3.jpg">
 				<name>3.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/3.jpg"/>
-				<title></title>
+				<title>PERSONAL WORK - 2010</title>
 			</image>
 			<image path="/images/personal/freestyle/4.jpg">
 				<name>4.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/4.jpg"/>
-				<title></title>
+				<title>NO EXISTE, SI EXISTE - Guadalajara, 2007</title>
 			</image>
 			<image path="/images/personal/freestyle/5.jpg">
 				<name>5.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/5.jpg"/>
-				<title></title>
+				<title>LE WOLF EYE instalation - Guadalajara, 2009</title>
 			</image>
 			<image path="/images/personal/freestyle/6.jpg">
 				<name>6.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/6.jpg"/>
-				<title></title>
+				<title>LOGO AND ARTWORK FOR ART FEST - Guadalajara, 2009</title>
 			</image>
 			<image path="/images/personal/freestyle/7.jpg">
 				<name>7.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/7.jpg"/>
-				<title></title>
+				<title>PERSONAL WORK - 2008</title>
 			</image>
 			<image path="/images/personal/freestyle/8.jpg">
 				<name>8.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/8.jpg"/>
-				<title></title>
+				<title>CHILDRENS BOOK ILLUSTRATION CONTEST - 2009 </title>
 			</image>
 			<image path="/images/personal/freestyle/9.jpg">
 				<name>9.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/9.jpg"/>
-				<title></title>
+				<title>CHILDRENS BOOK ILLUSTRATION CONTEST - 2009 </title>
 			</image>
 			<image path="/images/personal/freestyle/10.jpg">
 				<name>10.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/10.jpg"/>
-				<title></title>
+				<title>XOLOESCUINTLE SERIES 1 - 2009</title>
 			</image>
 			<image path="/images/personal/freestyle/11.jpg">
 				<name>11.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/11.jpg"/>
-				<title></title>
+				<title>XOLOESCUINTLE SERIES 2 - 2009</title>
 			</image>
 			<image path="/images/personal/freestyle/12.jpg">
 				<name>12.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/12.jpg"/>
-				<title></title>
+				<title>XOLOESCUINTLE SERIES 3 - 2009</title>
 			</image>
 			<image path="/images/personal/freestyle/13.jpg">
 				<name>13.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/13.jpg"/>
-				<title></title>
+				<title>CHILDRENS BOOK ILLUSTRATION CONTEST - 2010 </title>
 			</image>
 			<image path="/images/personal/freestyle/14.jpg">
 				<name>14.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/14.jpg"/>
-				<title></title>
+				<title>CHILDRENS BOOK ILLUSTRATION CONTEST - 2010 </title>
 			</image>
 			<image path="/images/personal/freestyle/15.jpg">
 				<name>15.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/15.jpg"/>
-				<title></title>
+				<title>CHILDRENS BOOK ILLUSTRATION CONTEST - 2010 </title>
 			</image>
 			<image path="/images/personal/freestyle/16.jpg">
 				<name>16.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/16.jpg"/>
-				<title></title>
+				<title>CHILDRENS BOOK ILLUSTRATION CONTEST - 2010 </title>
 			</image>
 			<image path="/images/personal/freestyle/17.jpg">
 				<name>17.jpg</name>
 				<thumbnail path="/images/personal/freestyle/thumbs/17.jpg"/>
-				<title></title>
+				<title>CHILDRENS BOOK ILLUSTRATION CONTEST - 2010 </title>
 			</image>
 		</album>
 		<album name="flamingo rock">
 			<image path="/images/personal/flammingo_rock/1.jpg">
 				<name>1.jpg</name>
 				<thumbnail path="/images/personal/flammingo_rock/thumbs/1.jpg"/>
-				<title></title>
+				<title>FLAMMINGO ROCK graphic work for mexican fashion brand, 2009-2010 </title>
 			</image>
 			<image path="/images/personal/flammingo_rock/2.jpg">
 				<name>2.jpg</name>
 				<thumbnail path="/images/personal/flammingo_rock/thumbs/2.jpg"/>
-				<title></title>
+				<title>FLAMMINGO ROCK graphic work for mexican fashion brand, 2009-2010 </title>
 			</image>
 			<image path="/images/personal/flammingo_rock/3.jpg">
 				<name>3.jpg</name>
 				<thumbnail path="/images/personal/flammingo_rock/thumbs/3.jpg"/>
-				<title></title>
+				<title>FLAMMINGO ROCK graphic work for mexican fashion brand, 2009-2010 </title>
 			</image>
 			<image path="/images/personal/flammingo_rock/4.jpg">
 				<name>4.jpg</name>
 				<thumbnail path="/images/personal/flammingo_rock/thumbs/4.jpg"/>
-				<title></title>
+				<title>FLAMMINGO ROCK graphic work for mexican fashion brand, 2009-2010 </title>
 			</image>
 			<image path="/images/personal/flammingo_rock/5.jpg">
 				<name>5.jpg</name>
 				<thumbnail path="/images/personal/flammingo_rock/thumbs/5.jpg"/>
-				<title></title>
+				<title>FLAMMINGO ROCK graphic work for mexican fashion brand, 2009-2010 </title>
 			</image>
 			<image path="/images/personal/flammingo_rock/6.jpg">
 				<name>6.jpg</name>
 				<thumbnail path="/images/personal/flammingo_rock/thumbs/6.jpg"/>
-				<title></title>
+				<title>FLAMMINGO ROCK graphic work for mexican fashion brand, 2009-2010 </title>
 			</image>
 			<image path="/images/personal/flammingo_rock/7.jpg">
 				<name>7.jpg</name>
 				<thumbnail path="/images/personal/flammingo_rock/thumbs/7.jpg"/>
-				<title></title>
+				<title>FLAMMINGO ROCK graphic work for mexican fashion brand, 2009-2010 </title>
 			</image>
 			<image path="/images/personal/flammingo_rock/11.jpg">
 				<name>11.jpg</name>
 				<thumbnail path="/images/personal/flammingo_rock/thumbs/11.jpg"/>
-				<title></title>
+				<title>FLAMMINGO ROCK graphic work for mexican fashion brand, 2009-2010 </title>
 			</image>
 			<image path="/images/personal/flammingo_rock/12.jpg">
 				<name>12.jpg</name>
 				<thumbnail path="/images/personal/flammingo_rock/thumbs/12.jpg"/>
-				<title></title>
+				<title>FLAMMINGO ROCK graphic work for mexican fashion brand, 2009-2010 </title>
 			</image>
 		</album>
 	</section>
@@ -237,104 +237,104 @@
 			<image path="/images/editorial/magis/1.jpg">
 				<name>1.jpg</name>
 				<thumbnail path="/images/editorial/magis/thumbs/1.jpg"/>
-				<title></title>
+				<title>TERAPIA FAMILIAR / FAMILY THERAPY (illustration for MAGIS Magazine Feb.09)</title>
 			</image>
 			<image path="/images/editorial/magis/2.jpg">
 				<name>2.jpg</name>
 				<thumbnail path="/images/editorial/magis/thumbs/2.jpg"/>
-				<title></title>
+				<title>DE CONTADORES / ACCOUNTANTS (illustration for MAGIS Magazine Apr.09)</title>
 			</image>
 			<image path="/images/editorial/magis/3.jpg">
 				<name>3.jpg</name>
 				<thumbnail path="/images/editorial/magis/thumbs/3.jpg"/>
-				<title></title>
+				<title>EMPRENDEDORES / ENTREPRENEUR (illustration for MAGIS Magazine Jun.09)</title>
 			</image>
 			<image path="/images/editorial/magis/4.jpg">
 				<name>4.jpg</name>
 				<thumbnail path="/images/editorial/magis/thumbs/4.jpg"/>
-				<title></title>
+				<title>INGENIERO EN REDES / WIRELESS (illustration for MAGIS Magazine Aug.09)</title>
 			</image>
 			<image path="/images/editorial/magis/5.jpg">
 				<name>5.jpg</name>
 				<thumbnail path="/images/editorial/magis/thumbs/5.jpg"/>
-				<title></title>
+				<title>DISEÑADOR ECOLOGISTA / ECO DESIGNER (illustration for MAGIS Magazine Oct.09)</title>
 			</image>
 			<image path="/images/editorial/magis/6.jpg">
 				<name>6.jpg</name>
 				<thumbnail path="/images/editorial/magis/thumbs/6.jpg"/>
-				<title></title>
+				<title>MULTITASK / MADRE PROFESIONISTA (illustration for MAGIS Magazine Dec.09)</title>
 			</image>
 			<image path="/images/editorial/magis/7.jpg">
 				<name>7.jpg</name>
 				<thumbnail path="/images/editorial/magis/thumbs/7.jpg"/>
-				<title></title>
+				<title>TEETH / DIENTES (illustration for MAGIS Magazine Feb. 2010)</title>
 			</image>
 			<image path="/images/editorial/magis/8.jpg">
 				<name>8.jpg</name>
 				<thumbnail path="/images/editorial/magis/thumbs/8.jpg"/>
-				<title></title>
+				<title>DEAR MR. / QUERIDO PROFE (illustration for MAGIS Magazine Apr. 2010)</title>
 			</image>
 			<image path="/images/editorial/magis/9.jpg">
 				<name>9.jpg</name>
 				<thumbnail path="/images/editorial/magis/thumbs/9.jpg"/>
-				<title></title>
+				<title>PAJARITO, PAJARITO (illustration for MAGIS Magazine Jun. 2010)</title>
 			</image>
 		</album>
 		<album name="libro">
 			<image path="/images/editorial/libro/1.jpg">
 				<name>1.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/1.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/2.jpg">
 				<name>2.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/2.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/3.jpg">
 				<name>3.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/3.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/4.jpg">
 				<name>4.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/4.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/5.jpg">
 				<name>5.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/5.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/6.jpg">
 				<name>6.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/6.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/7.jpg">
 				<name>7.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/7.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/8.jpg">
 				<name>8.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/8.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/9.jpg">
 				<name>9.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/9.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/10.jpg">
 				<name>9.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/10.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 			<image path="/images/editorial/libro/11.jpg">
 				<name>9.jpg</name>
 				<thumbnail path="/images/editorial/libro/thumbs/11.jpg"/>
-				<title></title>
+				<title>LA CURIOSIDAD FORMULADA cover and interior illustrations - México, 2010</title>
 			</image>
 		</album>
 	</section>
