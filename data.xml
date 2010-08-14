@@ -158,6 +158,31 @@
 				<thumbnail path="/images/personal/freestyle/thumbs/12.jpg"/>
 				<title></title>
 			</image>
+			<image path="/images/personal/freestyle/13.jpg">
+				<name>13.jpg</name>
+				<thumbnail path="/images/personal/freestyle/thumbs/13.jpg"/>
+				<title></title>
+			</image>
+			<image path="/images/personal/freestyle/14.jpg">
+				<name>14.jpg</name>
+				<thumbnail path="/images/personal/freestyle/thumbs/14.jpg"/>
+				<title></title>
+			</image>
+			<image path="/images/personal/freestyle/15.jpg">
+				<name>15.jpg</name>
+				<thumbnail path="/images/personal/freestyle/thumbs/15.jpg"/>
+				<title></title>
+			</image>
+			<image path="/images/personal/freestyle/16.jpg">
+				<name>16.jpg</name>
+				<thumbnail path="/images/personal/freestyle/thumbs/16.jpg"/>
+				<title></title>
+			</image>
+			<image path="/images/personal/freestyle/17.jpg">
+				<name>17.jpg</name>
+				<thumbnail path="/images/personal/freestyle/thumbs/17.jpg"/>
+				<title></title>
+			</image>
 		</album>
 		<album name="flamingo rock">
 			<image path="/images/personal/flammingo_rock/1.jpg">

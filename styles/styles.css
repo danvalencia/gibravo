@@ -46,7 +46,7 @@ Main panel styles
 #thumb_panel
 {
 	width:165px;
-	height:585px;
+	height:580px;
 	float:left;
 }
 
@@ -54,14 +54,14 @@ Main panel styles
 {
 	float: right;
 	width:604px;
-	height:585px;
+	height:580px;
 }
 
 #image_footer
 {
-	margin-left : 175px;
+	margin-left : 5px;
 	clear : both;
-	width : 540px ;
+	width : 730px ;
 }
 
 #flechas
@@ -173,4 +173,10 @@ Footer
 {
 	position : fixed;
 	z-index : 100;
+}
+
+#copyright_text
+{
+	font-size: 10px;
+	color: #585857;
 }
