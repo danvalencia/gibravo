@@ -408,10 +408,10 @@
 	<section name="blog" url="/" target="_blank">
 		
 	</section>
-	<section name="contact" url="/contact" target="_self">
+	<section name="wallpaper" url="/wallpaper" target="_self">
 		
 	</section>
-	<section name="wallpaper" url="/wallpaper" target="_self">
+	<section name="contact" url="/contact" target="_self">
 		
 	</section>
 

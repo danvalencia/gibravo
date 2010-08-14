@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="/styles/styles.css" type="text/css"></link>
 		<link rel="stylesheet" href="/styles/leftnav.css" type="text/css"></link>
 		<link rel="stylesheet" href="/styles/contact.css" type="text/css"></link>
+		<link rel="stylesheet" href="/styles/wallpaper.css" type="text/css"></link>
 	</head>
 	<body>
 		<div id="page-container">

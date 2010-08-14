@@ -1,8 +1,8 @@
 #contact_form
 {
 		background-color: #373233;
-		height: 650px;
-		width: 770px;
+		height: 585px;
+		width: 740px;
 		color : #6D6E71;
 		font-size: 14px;
 		text-align : center;
@@ -15,7 +15,7 @@
 		text-align : center;
 		width : 550px;
 		line-height: 30px;
-		padding-top : 100px;
+		padding-top : 80px;
 }
 
 .contact_field
