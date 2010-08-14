@@ -65,11 +65,15 @@ Menu.highlightThumb = function()
 		nextThumb.addClass("thumb_selected");
 }
 
-Menu.click = function(url)
+Menu.click = function(url, target)
 {
 		if(url != "")
 		{
-				window.location = url;			
+				if(target == "")
+				{
+					target = "_self";
+				}
+				window.open(url, target);			
 		}
 }
 

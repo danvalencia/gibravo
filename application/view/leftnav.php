@@ -1,7 +1,7 @@
 <?php
 	function setHrefFor($section)
 	{
-		$href= "href=\"" . $section->getUrl() . "\"";
+		$href= "href=\"" . $section->getUrl() . "\"" . " target=\"" . $section->getUrlTarget() . "\"";
 		return $href;
 	}
 ?>
@@ -12,7 +12,7 @@
 			<?php if (strcasecmp($a_section->getName(), $seccion_name) == 0): ?>
 				<a class="section section_selected" id="<?=$a_section->getName()?>" <?= setHrefFor($a_section) ?> onclick="Menu.click(this.href)" ><?= strtoupper($a_section->getName()) ?></a>
 			<?php else: ?>
-			    <a class="section section_unselected" <?= setHrefFor($a_section) ?>  id="<?=$a_section->getName()?>" onclick="Menu.click(this.href)"><?= strtoupper($a_section->getName()) ?></a>
+			    <a class="section section_unselected" <?= setHrefFor($a_section) ?>  id="<?=$a_section->getName()?>" onclick="Menu.click(this.href, this.target)"><?= strtoupper($a_section->getName()) ?></a>
 			<?php endif ?>		
 			<?php if($a_section->hasAlbums()): ?>						
 			<ul class="albums">
