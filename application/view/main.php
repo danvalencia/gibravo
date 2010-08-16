@@ -26,10 +26,10 @@
 
 </div>
 <div id="image_footer">
-	<span id="copyright_text">
-		all images © gibran julian
-	</span>
 	<?php if(!isset($hide_arrows)): ?>
+		<span id="copyright_text">
+			all images © gibran julian
+		</span>
 		<span id="image_title">
 			<?=$display_image->getTitle()?>
 		</span>
