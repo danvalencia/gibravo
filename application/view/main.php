@@ -7,7 +7,7 @@
 		<?php foreach ($images_to_display as $image): ?>
 			<?php $image_count++;?>
 			<div class="loading_thumb thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?> image" onclick="ImageUtils.selectImage('<?= $image->getPath() ?>', this, '<?= $image->getTitle() ?>');">
-				<img src="<?= $image->getThumbnailPath()?>"></img>
+				<img style="hidden" src="<?= $image->getThumbnailPath()?>"></img>
 			</div>
 		<?php endforeach ?>
 		<?php for ($i=$image_count; $i < $MAX_IMAGES; $i++): ?>

@@ -40,6 +40,7 @@ ImageUtils.selectImage = function(imageName, imgThumb, imgTitle)
 ImageUtils.removeThumbLoader = function(image)
 {
 		$(image).hide();
+		$(image).removeClass("hidden");
 		$(image).parent().removeClass("loading_thumb");
 		$(image).fadeIn();
 }
