@@ -19,7 +19,8 @@ Mail.send = function(form)
 								$("#contact_form").empty().append("<div id='message'>" + data.message['text'] + "</div>");
 						},
 						error : function(request, textStatus, errorThrown){
-								alert("Error!: " + errorThrown);
+								var response = $.parseJSON(request.responseText);
+								alert(response.message.text);
 						}	
 				});
 		}

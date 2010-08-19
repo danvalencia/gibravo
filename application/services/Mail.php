@@ -1,7 +1,7 @@
 <?php 
 class Mail
 {
-	private $_to = "danvalencia@gmail.com";
+	private $_to = "daniel@tacitknowledge.com";
 	private $_name;
 	private $_from;
 	private $_msg;
@@ -17,16 +17,23 @@ class Mail
 	public function sendMail()
 	{
 		logToFile("Intentando enviar el mail");
-		if(isset($this->_name) && isset($this->_from))
+		
+		logToFile("Nombre: " . $this->_name . " From: " . $this->_from . " To: " . $this->_to . " Mensaje: " . $this->_msg);				
+		if(mail($this->_to, "Contacto", $this->_msg, $this->_from))
 		{
-			logToFile("Nombre: " . $this->_name . " From: " . $this->_from . " To: " . $this->_to . " Mensaje: " . $this->_msg);				
-			if(mail($this->_to, "Contacto", $this->_msg, $this->_from))
-			{
-				logToFile("Mail enviado exitosamente");
-				return true;
-			}
+			logToFile("Mail enviado exitosamente");
+			return true;
 		}
 		return false;
+	}
+	
+	public function validate()
+	{
+		if(empty($this->_name) || empty($this->_from) || empty($this->_msg))
+		{
+			return false;
+		}
+		return true;
 	}
 	
 }
