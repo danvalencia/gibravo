@@ -36,7 +36,7 @@
 		<script type="text/javascript" >
 		$(document).ready(function() {
 			Menu.initMenu("<?= $is_home_page ? 'home_page' : $seccion_name ?>");
-			Image.init();
+			ImageUtils.init();
 			$("input:submit").button();
 			$(".thumb.image").first().click();
 		});   

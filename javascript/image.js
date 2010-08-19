@@ -1,43 +1,73 @@
-Image={}
+ImageUtils={}
 
-Image.selectImage = function(imageName, imgThumb, imgTitle)
+ImageUtils.selectImage = function(imageName, imgThumb, imgTitle)
 {
 		$(".thumb").removeClass("thumb_selected");
 		$(imgThumb).addClass("thumb_selected");
+		$('#image_panel').empty().addClass("loading");
+		var img = new Image();
 		
-		var hiddenImage = $('._image.hidden_image').attr('src', imageName);
-		var activeImage = $('._image.active');
-		activeImage.fadeOut(400, function(){
-				$("#image_title").addClass("hidden").text(imgTitle).fadeIn("slow");
-				activeImage.removeClass('active').addClass("hidden_image");
-				hiddenImage.addClass("active").removeClass("hidden_image");
-				hiddenImage.fadeIn(800);
-		});
+		  // wrap our new image in jQuery, then:
+		  $(img)
+		    // once the image has loaded, execute this code
+		    .load(function () {
+		      // set the image hidden by default    
+		      $(this).hide();
+		
+		      // with the holding div #loader, apply:
+		      $('#image_panel')
+		        // remove the loading class (so no background spinner), 
+		        .removeClass('loading')
+		        // then insert our image
+		        .append(this);
+		
+		      // fade our image in to create a nice effect
+		      $(this).fadeIn();
+		    })
+		
+		    // if there was an error loading the image, react accordingly
+		    .error(function () {
+		      // notify the user that the image could not be loaded
+		    })
+				.addClass("loading")
+		    // *finally*, set the src attribute of the new image to our image
+		    .attr('src', "http://gibravo.daniel-valencia.com/"+imageName);
 		
 }
 
-Image.init = function()
+ImageUtils.removeThumbLoader = function(image)
 {
+		$(image).hide();
+		$(image).parent().removeClass("loading_thumb");
+		$(image).fadeIn();
+}
+
+ImageUtils.init = function()
+{
+		$(".thumb img").load(function(){
+			ImageUtils.removeThumbLoader(this);
+		});
+		
 		$("#flecha_izquierda").click(function(){
-				Image.previous();
+				ImageUtils.previous();
 		});
 		$("#flecha_derecha").click(function(){
-				Image.next();
+				ImageUtils.next();
 		});
 		
 }
 
-Image.next = function()
+ImageUtils.next = function()
 {
-		Image.switchImage("right");
+		ImageUtils.switchImage("right");
 }
 
-Image.previous = function()
+ImageUtils.previous = function()
 {
-		Image.switchImage("left");
+		ImageUtils.switchImage("left");
 }
 
-Image.switchImage = function(direction)
+ImageUtils.switchImage = function(direction)
 {
 		switch(direction)
 		{

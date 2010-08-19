@@ -6,7 +6,7 @@
 	<?php else: ?>
 		<?php foreach ($images_to_display as $image): ?>
 			<?php $image_count++;?>
-			<div class="thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?> image" onclick="Image.selectImage('<?= $image->getPath() ?>', this, '<?= $image->getTitle() ?>');">
+			<div class="loading_thumb thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?> image" onclick="ImageUtils.selectImage('<?= $image->getPath() ?>', this, '<?= $image->getTitle() ?>');">
 				<img src="<?= $image->getThumbnailPath()?>"></img>
 			</div>
 		<?php endforeach ?>
@@ -15,15 +15,13 @@
 		<?php endfor?>		
 	<?php endif ?>
 </div>
-<div id="image_panel" >
+<div id="image_panel" class="loading" >
 	<!-- <img id="_image" style="opacity:0.1;filter:alpha(opacity=40)" src="/images/pajaro_web2.jpg"></img> -->
 	<?php if($is_home_page): ?>
-		<img class="_image active" src="/images/entrada.jpg"></img>
+		<img id="_image" class="active" src="/images/entrada.jpg"></img>
 	<?php else: ?>
-		<img class="_image active" style="display:none"></img>
+		<img id="_image" class="active" src="<?= $image->getPath()?>"></img>
 	<?php endif ?>
-	<img class="_image hidden_image" style="display:none"></img>
-
 </div>
 <div id="image_footer">
 	<?php if(!isset($hide_arrows)): ?>
