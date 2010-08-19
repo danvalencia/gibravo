@@ -18,6 +18,8 @@ ImageUtils.selectImage = function(imageName, imgThumb, imgTitle)
 		      $('#image_panel')
 		        // remove the loading class (so no background spinner), 
 		        .removeClass('loading')
+						// to ensure we don't have 2 images at once
+						.empty()
 		        // then insert our image
 		        .append(this);
 		

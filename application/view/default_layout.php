@@ -1,3 +1,4 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -28,9 +29,9 @@
 				<?php include("footer.php");?>
 			</div>
 		</div>
+		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/jquery-1.4.2.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
-		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/menu.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/mail.js"></script>
 		<script type="text/javascript" >
