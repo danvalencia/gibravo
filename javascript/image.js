@@ -31,7 +31,7 @@ ImageUtils.selectImage = function(imageName, imgThumb, imgTitle)
 		    })
 				.addClass("loading")
 		    // *finally*, set the src attribute of the new image to our image
-		    .attr('src', "http://gibravo.daniel-valencia.com/"+imageName);
+		    .attr('src', imageName);
 		
 }
 
