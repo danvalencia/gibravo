@@ -12,8 +12,21 @@ Menu.initMenu = function(section)
 		if(section == "home_page")
 		{
 			$("#menu").accordion("activate", false);
-			var windowHeight = window.innerHeight;
-			var windowWidth = window.innerWidth;
+			var windowHeight;
+			var windowWidth;
+			
+			if(window.innerHeight){
+			  	windowHeight = window.innerHeight;
+			}else{
+		  		windowHeight = document.documentElement.clientHeight;
+			}
+
+			if(window.innerWidth){
+			  	windowWidth = window.innerWidth;
+			}else{
+		  		windowWidth = document.documentElement.clientWidth;
+			}
+			
 			var randomX=Math.floor(Math.random()*windowWidth);
 			var randomY=Math.floor(Math.random()*windowHeight);
 			$("#random_fly").css("left", randomX).css("top", randomY).removeClass("hidden");			
