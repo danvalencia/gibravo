@@ -7,7 +7,7 @@
 		<?php foreach ($images_to_display as $image): ?>
 			<?php $image_count++;?>
 			<div class="loading_thumb thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?> image">
-				<img style="hidden" src="<?= $image->getThumbnailPath()?>" alt="<?= $image->getTitle() ?>" imagePath="<?= $image->getPath() ?>"></img>
+				<img style="hidden" src="<?= $image->getThumbnailPath()?>" title="<?= $image->getTitle() ?>" imagePath="<?= $image->getPath() ?>"></img>
 			</div>
 		<?php endforeach ?>
 		<?php for ($i=$image_count; $i < $MAX_IMAGES; $i++): ?>
@@ -16,7 +16,6 @@
 	<?php endif ?>
 </div>
 <div id="image_panel" class="loading" >
-	<!-- <img id="_image" style="opacity:0.1;filter:alpha(opacity=40)" src="/images/pajaro_web2.jpg"></img> -->
 	<?php if($is_home_page): ?>
 		<img id="_image" class="active" src="/images/entrada.jpg"></img>
 	<?php else: ?>

@@ -8,7 +8,7 @@ ImageUtils.selectImage = function(imgThumb)
 		$('#image_panel').empty().addClass("loading");
 		
 		var imageName = $(imgThumb).attr("imagePath");
-		var imgTitle = $(imgThumb).attr("alt");
+		var imgTitle = $(imgThumb).attr("title");
 				
 		var img = new Image();
 		$(img)

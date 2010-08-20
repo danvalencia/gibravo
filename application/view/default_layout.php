@@ -55,7 +55,6 @@
 				var coordinates = Fly.getCoordinates();
 				$("#random_fly").css("left", coordinates[0]).css("top", coordinates[1]).removeClass("hidden");			
 				
-				
 			}
 			Menu.initMenu(section);
 			ImageUtils.init();
