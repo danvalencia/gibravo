@@ -30,13 +30,34 @@
 			</div>
 		</div>
 		<script type="text/javascript" charset="utf-8" src="/javascript/image.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/javascript/fly.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/jquery-1.4.2.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/menu.js"></script>
 		<script type="text/javascript" charset="utf-8" src="/javascript/mail.js"></script>
 		<script type="text/javascript" >
 		$(document).ready(function() {
-			Menu.initMenu("<?= $is_home_page ? 'home_page' : $seccion_name ?>");
+			var section = "<?= $is_home_page ? 'home_page' : $seccion_name ?>";
+			if(section == "home_page")
+			{
+				$("#random_fly").hover(function(){
+					var coordinates = Fly.getCoordinates();
+					$(this).animate({"left" : coordinates[0], 
+									 "top" : coordinates[1]},
+									{
+									    duration: 200, 
+									    specialEasing: {
+									      left: 'swing',
+									      top: 'swing'
+									    }
+									});
+				})
+				var coordinates = Fly.getCoordinates();
+				$("#random_fly").css("left", coordinates[0]).css("top", coordinates[1]).removeClass("hidden");			
+				
+				
+			}
+			Menu.initMenu(section);
 			ImageUtils.init();
 			$("input:submit").button();
 			$(".thumb.image").first().click();

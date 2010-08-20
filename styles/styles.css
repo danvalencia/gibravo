@@ -17,6 +17,7 @@ html,body
 	padding-top: 10px;
 	width: 950px;
 	margin: auto;
+	height: 750px;
 }
 
 /*
@@ -48,6 +49,7 @@ Main panel styles
 	width:165px;
 	height:580px;
 	float:left;
+	padding : 0px;
 }
 
 #image_panel
@@ -101,6 +103,7 @@ Thumbs
 	float : left;
 	background-color: #1D1D1D;
 	margin: 4px 4px 4px 4px;
+	padding: 0px;
 	cursor:pointer;
 	
 }

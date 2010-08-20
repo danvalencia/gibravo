@@ -6,8 +6,8 @@
 	<?php else: ?>
 		<?php foreach ($images_to_display as $image): ?>
 			<?php $image_count++;?>
-			<div class="loading_thumb thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?> image" onclick="ImageUtils.selectImage('<?= $image->getPath() ?>', this, '<?= $image->getTitle() ?>');">
-				<img style="hidden" src="<?= $image->getThumbnailPath()?>"></img>
+			<div class="loading_thumb thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?> image">
+				<img style="hidden" src="<?= $image->getThumbnailPath()?>" alt="<?= $image->getTitle() ?>" imagePath="<?= $image->getPath() ?>"></img>
 			</div>
 		<?php endforeach ?>
 		<?php for ($i=$image_count; $i < $MAX_IMAGES; $i++): ?>
@@ -20,7 +20,7 @@
 	<?php if($is_home_page): ?>
 		<img id="_image" class="active" src="/images/entrada.jpg"></img>
 	<?php else: ?>
-		<img id="_image" class="active" src="<?= $image->getPath()?>"></img>
+		<img id="_image" class="active" src="<?= $display_image->getPath()?>"></img>
 	<?php endif ?>
 </div>
 <div id="image_footer">

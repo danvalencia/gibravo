@@ -26,13 +26,18 @@ Mail.send = function(form)
 		}
 		else
 		{
-				alert("Please correct the errors in the form");
+				alert("Por favor llene todos los campos de la forma.");
 		}
 		
 }
 
 Mail.validateForm = function(contactData)
 {
-		//TODO: Validate form fields
+		if($.trim(contactData.name) == "" ||
+			 $.trim(contactData.email) == "" ||
+		   $.trim(contactData.message) == "")
+		{
+				return false;
+		}
 		return true;
 }

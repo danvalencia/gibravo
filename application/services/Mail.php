@@ -1,8 +1,7 @@
 <?php 
 class Mail
 {
-	private $_to = "yo@daniel-valencia.com";
-	// private $_to = "danvalencia@gmail.com";
+	private $_to = "gibran@gibravo.com";
 	private $_name;
 	private $_from;
 	private $_msg;

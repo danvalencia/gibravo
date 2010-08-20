@@ -1,39 +1,29 @@
 ImageUtils={}
 
-ImageUtils.selectImage = function(imageName, imgThumb, imgTitle)
+ImageUtils.selectImage = function(imgThumb)
 {
+		$("#image_title").empty();
 		$(".thumb").removeClass("thumb_selected");
-		$(imgThumb).addClass("thumb_selected");
+		$(imgThumb).parent().addClass("thumb_selected");
 		$('#image_panel').empty().addClass("loading");
+		
+		var imageName = $(imgThumb).attr("imagePath");
+		var imgTitle = $(imgThumb).attr("alt");
+				
 		var img = new Image();
-		
-		  // wrap our new image in jQuery, then:
-		  $(img)
-		    // once the image has loaded, execute this code
-		    .load(function () {
-		      // set the image hidden by default    
+		$(img)
+			.load(function () {
 		      $(this).hide();
-		
-		      // with the holding div #loader, apply:
 		      $('#image_panel')
-		        // remove the loading class (so no background spinner), 
 		        .removeClass('loading')
-						// to ensure we don't have 2 images at once
 						.empty()
-		        // then insert our image
 		        .append(this);
-		
-		      // fade our image in to create a nice effect
+
 		      $(this).fadeIn();
-		    })
-		
-		    // if there was an error loading the image, react accordingly
-		    .error(function () {
-		      // notify the user that the image could not be loaded
-		    })
-				.addClass("loading")
-		    // *finally*, set the src attribute of the new image to our image
-		    .attr('src', imageName);
+					$("#image_title").append(imgTitle).fadeIn();
+		  })
+			.addClass("loading")
+		  .attr('src', imageName);
 		
 }
 
@@ -47,9 +37,13 @@ ImageUtils.removeThumbLoader = function(image)
 
 ImageUtils.init = function()
 {
-		$(".thumb img").load(function(){
-			ImageUtils.removeThumbLoader(this);
-		});
+		$(".thumb img")
+			.load(function(){
+				ImageUtils.removeThumbLoader(this);
+			})
+			.click(function(){
+				ImageUtils.selectImage(this);
+			})
 		
 		$("#flecha_izquierda").click(function(){
 				ImageUtils.previous();
@@ -75,19 +69,23 @@ ImageUtils.switchImage = function(direction)
 		switch(direction)
 		{
 				case "right":
-					var nextThumb = $(".thumb_selected").next();
-					if(nextThumb.hasClass("empty"))
+					var nextDiv = $(".thumb_selected").next();
+					if(nextDiv.hasClass("empty"))
 					{
-							nextThumb = $(".thumb").first();
+							nextDiv = $(".thumb").first();
 					}
+					var nextThumb = nextDiv.children();
 					nextThumb.click();
 					break;
+					
 				case "left":
-					var prevThumb = $(".thumb_selected").prev();
-					if(prevThumb.length == 0)
+					var prevDiv = $(".thumb_selected").prev();
+					if(prevDiv.length == 0)
 					{
-							prevThumb = $(".thumb.image").last();
+							prevDiv = $(".thumb").last();
 					}
+					var prevThumb = prevDiv.children();
+					
 					prevThumb.click()
 					break;
 		}

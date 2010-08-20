@@ -9,32 +9,7 @@ Menu.initMenu = function(section)
 			active : Menu.getSectionNumber(section)
 		});			
 		
-		if(section == "home_page")
-		{
-			$("#menu").accordion("activate", false);
-			var windowHeight;
-			var windowWidth;
-			
-			if(window.innerHeight){
-			  	windowHeight = window.innerHeight;
-			}else{
-		  		windowHeight = document.documentElement.clientHeight;
-			}
-
-			if(window.innerWidth){
-			  	windowWidth = window.innerWidth;
-			}else{
-		  		windowWidth = document.documentElement.clientWidth;
-			}
-			
-			var randomX=Math.floor(Math.random()*windowWidth);
-			var randomY=Math.floor(Math.random()*windowHeight);
-			$("#random_fly").css("left", randomX).css("top", randomY).removeClass("hidden");			
-		}
-		else
-		{
-			$("#menu").accordion("activate", Menu.getSectionNumber(section));
-		}
+		$("#menu").accordion("activate", Menu.getSectionNumber(section));
 		$("#menu").accordion("enable");
 		
 		if(section == "home_page")
