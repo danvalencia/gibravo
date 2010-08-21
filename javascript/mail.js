@@ -14,6 +14,7 @@ Mail.send = function(form)
 						theform : form,
 						url : "/contact/send",
 						dataType : 'json',
+						type : 'POST',
 						data : contactData,
 						success :  function(data, textStatus, request){
 								$("#contact_form").empty().append("<div id='message'>" + data.message['text'] + "</div>");

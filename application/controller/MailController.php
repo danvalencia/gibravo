@@ -2,9 +2,9 @@
 require("../services/Mail.php");
 require("../../lib/logging.php");
 
-$name = $_GET["name"];
-$email = $_GET["email"];
-$message = $_GET["message"];
+$name = $_POST["name"];
+$email = $_POST["email"];
+$message = $_POST["message"];
 
 
 $mail = new Mail($name, $email, $message);
