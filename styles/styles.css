@@ -196,3 +196,11 @@ Footer
 {
 	padding-left: 47px;
 }
+
+/**
+Extras
+*/
+textarea
+{
+	overflow : auto;
+}

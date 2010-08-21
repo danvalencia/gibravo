@@ -279,6 +279,11 @@
 				<thumbnail path="/images/editorial/magis/thumbs/9.jpg"/>
 				<title>PAJARITO, PAJARITO (illustration for MAGIS Magazine Jun. 2010)</title>
 			</image>
+			<image path="/images/editorial/magis/10.jpg">
+				<name>10.jpg</name>
+				<thumbnail path="/images/editorial/magis/thumbs/10.jpg"/>
+				<title>CÓMO COBRAR (illustration for MAGIS Magazine Aug. 2010)</title>
+			</image>
 		</album>
 		<album name="libro">
 			<image path="/images/editorial/libro/1.jpg">

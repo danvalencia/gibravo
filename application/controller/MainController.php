@@ -1,6 +1,7 @@
 <?php 
 require("../services/ImageService.php");
 require("../../lib/logging.php");
+require("../../lib/utils.php");
 
 $view_name = $_GET['view'];
 

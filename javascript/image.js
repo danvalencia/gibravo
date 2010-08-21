@@ -27,6 +27,28 @@ ImageUtils.selectImage = function(imgThumb)
 		
 }
 
+ImageUtils.loadImage = function(imageName)
+{
+		if(imageName == "")
+		{
+				return;
+		}
+		
+		var img = new Image();
+		$(img)
+			.load(function () {
+		      $(this).hide();
+		      $('#image_panel')
+		        .removeClass('loading')
+						.empty()
+		        .append(this);
+
+		      $(this).fadeIn();
+		  })
+			.addClass("loading")
+		  .attr('src', imageName);
+}
+
 ImageUtils.removeThumbLoader = function(image)
 {
 		$(image).hide();

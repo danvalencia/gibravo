@@ -17,9 +17,9 @@
 </div>
 <div id="image_panel" class="loading" >
 	<?php if($is_home_page): ?>
-		<img id="_image" class="active" src="/images/entrada.jpg"></img>
+		<img id="_image" class="active hidden" ></img>
 	<?php else: ?>
-		<img id="_image" class="active" src="<?= $display_image->getPath()?>"></img>
+		<img id="_image" class="active hidden" ></img>
 	<?php endif ?>
 </div>
 <div id="image_footer">

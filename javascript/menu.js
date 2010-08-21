@@ -30,10 +30,12 @@ Menu.getSectionNumber = function(section)
 						return 2;
 				case "blog":
 						return 3;
-				case "contact":
+				case "wallpaper":
 						return 4;
+			 case "contact":
+			  		return 5;
 				default:
-						return 5;
+						return 6;
 		}
 }
 

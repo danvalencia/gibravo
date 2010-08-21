@@ -68,6 +68,7 @@ input.text_input
 		width : 110px;
 		height : 30px;
 		font-size: 13px;
+		cursor: pointer;
 }
 
 #contact_submit
