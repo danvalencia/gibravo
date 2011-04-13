@@ -41,6 +41,7 @@
 		<script type="text/javascript" >
 		$(document).ready(function() {
 			var section = "<?= $is_home_page ? 'home_page' : $seccion_name ?>";
+			ImageUtils.section = section;
 			var mainImage = "<?= getMainImage($display_image, $is_home_page) ?>";
 			ImageUtils.loadImage(mainImage);
 			if(section == "home_page")

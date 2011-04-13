@@ -7,7 +7,7 @@
 		<?php foreach ($images_to_display as $image): ?>
 			<?php $image_count++;?>
 			<div class="loading_thumb thumb <?= $image->getName()==$display_image->getName() ? 'thumb_selected' : '' ?> image">
-				<img style="hidden" src="<?= $image->getThumbnailPath()?>" title="<?= $image->getTitle() ?>" imagePath="<?= $image->getPath() ?>"></img>
+				<img style="hidden" src="<?= $image->getThumbnailPath()?>" title="<?= $image->getTitle() ?>" imagePath="<?= $image->getPath() ?>" bookmarkPath="http://www.gibravo.com/main/<?=$seccion_name?>/<?=$album_name?>/<?=$image->getName()?>"></img>
 			</div>
 		<?php endforeach ?>
 		<?php for ($i=$image_count; $i < $MAX_IMAGES; $i++): ?>
