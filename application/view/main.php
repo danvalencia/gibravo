@@ -19,6 +19,8 @@
 	<?php if($is_home_page): ?>
 		<img id="_image" class="active hidden" ></img>
 	<?php else: ?>
+		<div class="facebook_like">
+		</div>
 		<img id="_image" class="active hidden" ></img>
 	<?php endif ?>
 </div>

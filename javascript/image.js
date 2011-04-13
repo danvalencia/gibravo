@@ -17,8 +17,11 @@ ImageUtils.selectImage = function(imgThumb)
 		      $('#image_panel')
 		        .removeClass('loading')
 						.empty()
-		        .append(this);
-
+						.append(this);
+					$('#facebook_like')
+						.empty()
+						.append("<iframe src='http://www.facebook.com/plugins/like.php?href=gibravo.com&amp;layout=button_count&amp;show_faces=true&amp;width=100&amp;action=like&amp;font&amp;colorscheme=dark&amp;height=21'" + 
+							      " scrolling='no' frameborder='0' style='border:none; overflow:hidden; width:600px; float:right; height:21px;' allowTransparency='true'></iframe>")
 		      $(this).fadeIn();
 					$("#image_title").append(imgTitle).fadeIn();
 		  })

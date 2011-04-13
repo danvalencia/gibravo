@@ -30,7 +30,7 @@ Header Styles
 
 #header_image{
 	left:173px;
-	top:21px;
+	top:30px;
 	position: relative;
 }
 
@@ -203,4 +203,9 @@ Extras
 textarea
 {
 	overflow : auto;
+}
+
+#facebook_like
+{
+	height: 22px;
 }

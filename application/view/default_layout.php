@@ -19,6 +19,9 @@
 			<div id="header">
 				<?php include("header.php");?>
 			</div>
+			<div id="facebook_like">
+				
+			</div>
 			<div id="leftnav">
 				<?php include("leftnav.php");?>
 			</div>

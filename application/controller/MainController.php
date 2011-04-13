@@ -41,11 +41,11 @@ else
 }
 $albums=$section->getAlbums();
 
-
 if(isset($album_name))
 {
 	$album=$albums[$album_name];
 	$images_to_display = $album->getImages();
+	logToFile("Images to display: " . $images_to_display);
 }
 else
 {
@@ -55,7 +55,6 @@ else
 		logToFile("section has images");
 		$images_to_display = $section->getImages();		
 		$display_image = $images_to_display[0];
-		//$images_in_album=array_values($images_in_section);
 	}
 	else
 	{
@@ -68,10 +67,11 @@ else
 		}		
 	}
 }
+logToFile("$image_name: " . $image_name);
 
 if(isset($image_name))
-{
-	$display_image=$images_in_album[$image_name];
+{	
+	$display_image=$images_to_display[$image_name];
 }
 else
 {
