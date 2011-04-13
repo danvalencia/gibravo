@@ -77,6 +77,22 @@ ImageUtils.init = function()
 				ImageUtils.next();
 		});
 		
+		$(document).keyup(function(evt){
+				switch(evt.which)
+				{
+						case 39 :
+							ImageUtils.next();
+							break;
+							
+						case 37 :
+							ImageUtils.previous();
+							break;
+							
+						default:
+							break;
+				}
+		});
+		
 }
 
 ImageUtils.next = function()
